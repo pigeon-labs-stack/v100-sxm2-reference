@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+type: dataset
+title: V100 SXM2 pinout and NVLink reference
+message: >-
+  Please cite this curated reference kit and the upstream sources relevant to
+  the information you reuse. See docs/sources.md for the original investigators
+  and source projects.
+authors:
+  - name: Pigeon Labs
+    website: https://github.com/pigeon-labs-stack
+version: 0.1.0-reference
+date-released: "2026-10-30"
+url: https://github.com/pigeon-labs-stack/v100-sxm2-reference
+repository-code: https://github.com/pigeon-labs-stack/v100-sxm2-reference
+license:
+  - CERN-OHL-W-2.0
+  - CC-BY-SA-4.0
+abstract: >-
+  Curated NVIDIA V100 SXM2 connector pin mappings, source comparisons, two- and
+  four-GPU NVLink connection plans, and editable connector-only KiCad starters.
+  This kit presents community reference information and original curation;
+  it does not claim independent reverse engineering or hardware qualification
+  of every assignment. Third-party material retains its own terms.
+keywords:
+  - V100
+  - SXM2
+  - NVLink
+  - pinout
+  - KiCad
+  - open hardware
+references:
+  - type: generic
+    title: Reverse Engineering the NVIDIA SXM2 Socket
+    authors:
+      - family-names: Benchoff
+        given-names: Brian
+    url: https://bbenchoff.com/pages/SXM2PCIe.html
+  - type: generic
+    title: SXM2 to PCIe project family
+    authors:
+      - name: mtf electronics studio
+    url: https://oshwhub.com/mtf-electronics-studio/sxm2-to-pcie
+  - type: generic
+    title: Dual V100 SXM2 to PCIe and NVLink implementation
+    authors:
+      - name: xinyuuliu
+    url: https://oshwhub.com/xinyuuliu/v100-graphics-card-nvlink200gb-c

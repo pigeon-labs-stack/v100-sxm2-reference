@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Level1Techs project discussion
+    url: https://forum.level1techs.com/t/designing-an-open-source-budget-4x-v100-sxm2-nvlink-backplane-passive-pcie-vs-pex8749/250801
+    about: Discuss the wider carrier-board project with the community.

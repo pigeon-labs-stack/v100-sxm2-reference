@@ -1,0 +1,14 @@
+*.kicad_prl
+*.lck
+*-backups/
+_autosave-*
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local authoring and maintenance material
+/tools/
+/.local-maintenance/
+/data/source-manifest.json
+/data/validation.json
+/assets/palette.json

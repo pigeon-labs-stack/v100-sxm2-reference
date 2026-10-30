@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img"><title>2-GPU NVLink connection plan</title><desc>Logical group allocations; not a routed or hardware-qualified bridge.</desc><rect width="100%" height="100%" fill="#1e1e2e"/><g font-family="DejaVu Sans,Arial,sans-serif">
+<text x="45" y="60" fill="#b4befe" font-size="34" font-weight="bold">2-GPU NVLink connection plan</text>
+<text x="45" y="100" fill="#bac2de" font-size="18" font-weight="normal">Logical group allocation · TX connects to peer RX · lane and polarity preserved</text>
+<path d="M 235 280 L 965 280" stroke="#89b4fa" stroke-width="5" fill="none" opacity="0.8"/>
+<rect x="450" y="183" width="290" height="290" rx="12" fill="#1e1e2e"/>
+<text x="475" y="220" fill="#89b4fa" font-size="23" font-weight="bold">NVHS0 ↔ NVHS3</text>
+<text x="475" y="263" fill="#cba6f7" font-size="23" font-weight="bold">NVHS1 ↔ NVHS2</text>
+<text x="475" y="306" fill="#94e2d5" font-size="23" font-weight="bold">NVHS2 ↔ NVHS1</text>
+<text x="475" y="349" fill="#fab387" font-size="23" font-weight="bold">NVHS3 ↔ NVHS0</text>
+<text x="475" y="392" fill="#f9e2af" font-size="23" font-weight="bold">NVHS4 ↔ NVHS5</text>
+<text x="475" y="435" fill="#b4befe" font-size="23" font-weight="bold">NVHS5 ↔ NVHS4</text>
+<rect x="170" y="240" width="130" height="85" rx="15" fill="#313244" stroke="#89b4fa" stroke-width="2"/>
+<text x="194" y="291" fill="#cdd6f4" font-size="27" font-weight="bold">GPU 0</text>
+<rect x="900" y="240" width="130" height="85" rx="15" fill="#313244" stroke="#89b4fa" stroke-width="2"/>
+<text x="924" y="291" fill="#cdd6f4" font-size="27" font-weight="bold">GPU 1</text>
+<text x="45" y="660" fill="#bac2de" font-size="17" font-weight="normal">Six NVHS groups per GPU. Numbers on connections identify physical groups, not software Link IDs.</text>
+<text x="45" y="705" fill="#fab387" font-size="18" font-weight="normal">Derived design reference. Consult the connection CSV for exact Connector B contacts.</text>
+</g></svg>

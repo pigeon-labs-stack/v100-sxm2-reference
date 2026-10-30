@@ -1,0 +1,401 @@
+Connector,Canonical_Pad,Master_Signal,Class,Direction,Confidence,Evidence_Status,Electrical_Treatment,Notes,Sources,Benchoff_Label,Dual_Raw_Pad,Dual_Net,MTF_Raw_Pad,MTF_Label,MTF_Impl_Net
+A / PCIe+Power,A1,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K1,GND,K1,GND,GND
+A / PCIe+Power,B1,PERp1,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERp1,J1,$3N4095,J1,PEX1_TX6#,TX14-
+A / PCIe+Power,C1,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H1,GND,H1,GND,GND
+A / PCIe+Power,D1,PERp2,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PERp2,G1,,G1,PEX1_TX5#,TX13-
+A / PCIe+Power,E1,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F1,GND,F1,GND,GND
+A / PCIe+Power,F1,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E1,GND,E1,GND,GND
+A / PCIe+Power,G1,PETp0,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PETp0,D1,,D1,PEX1_RX7#,RX15-
+A / PCIe+Power,H1,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C1,GND,C1,GND,GND
+A / PCIe+Power,J1,PETp2,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETp2,B1,$3N4127,B1,PEX1_RX5#,RX13-
+A / PCIe+Power,K1,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A1,GND,A1,GND,GND
+A / PCIe+Power,A2,PERp0,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PERp0,K2,,K2,PEX1_TX7#,TX15-
+A / PCIe+Power,B2,PERn1,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERn1,J2,$3N4097,J2,PEX1_TX6,TX14+
+A / PCIe+Power,C2,PERp3,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PERp3,H2,,H2,PEX1_TX4#,TX12-
+A / PCIe+Power,D2,PERn2,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PERn2,G2,,G2,PEX1_TX5,TX13+
+A / PCIe+Power,E2,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F2,GND,F2,GND,GND
+A / PCIe+Power,F2,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E2,GND,E2,GND,GND
+A / PCIe+Power,G2,PETn0,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PETn0,D2,,D2,PEX1_RX7,RX15+
+A / PCIe+Power,H2,PETp1,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PETp1,C2,,C2,PEX1_RX6#,RX14-
+A / PCIe+Power,J2,PETn2,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETn2,B2,$3N4129,B2,PEX1_RX5,RX13+
+A / PCIe+Power,K2,PETp3,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETp3,A2,$3N4009,A2,PEX1_RX4#,RX12-
+A / PCIe+Power,A3,PERn0,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PERn0,K3,,K3,PEX1_TX7,TX15+
+A / PCIe+Power,B3,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J3,GND,J3,GND,GND
+A / PCIe+Power,C3,PERn3,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PERn3,H3,,H3,PEX1_TX4,TX12+
+A / PCIe+Power,D3,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G3,GND,G3,GND,GND
+A / PCIe+Power,E3,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F3,GND,F3,GND,GND
+A / PCIe+Power,F3,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E3,GND,E3,GND,GND
+A / PCIe+Power,G3,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D3,GND,D3,GND,GND
+A / PCIe+Power,H3,PETn1,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PETn1,C3,,C3,PEX1_RX6,RX14+
+A / PCIe+Power,J3,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B3,GND,B3,GND,GND
+A / PCIe+Power,K3,PETn3,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETn3,A3,$3N4011,A3,PEX1_RX4,RX12+
+A / PCIe+Power,A4,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K4,GND,K4,GND,GND
+A / PCIe+Power,B4,PERp4,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERp4,J4,$3N4099,J4,PEX1_TX3#,TX11-
+A / PCIe+Power,C4,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H4,GND,H4,GND,GND
+A / PCIe+Power,D4,PERp5,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PERp5,G4,,G4,PEX1_TX2#,TX10-
+A / PCIe+Power,E4,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F4,GND,F4,GND,GND
+A / PCIe+Power,F4,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E4,GND,E4,GND,GND
+A / PCIe+Power,G4,PETp4,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PETp4,D4,,D4,PEX1_RX3#,RX11-
+A / PCIe+Power,H4,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C4,GND,C4,GND,GND
+A / PCIe+Power,J4,PETp5,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETp5,B4,$3N4131,B4,PEX1_RX2#,RX10-
+A / PCIe+Power,K4,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A4,GND,A4,GND,GND
+A / PCIe+Power,A5,PERp7,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PERp7,K5,,K5,PEX1_TX0#,TX8-
+A / PCIe+Power,B5,PERn4,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERn4,J5,$3N4101,J5,PEX1_TX3,TX11+
+A / PCIe+Power,C5,PERp6,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PERp6,H5,,H5,PEX1_TX1#,TX9-
+A / PCIe+Power,D5,PERn5,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PERn5,G5,,G5,PEX1_TX2,TX10+
+A / PCIe+Power,E5,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F5,GND,F5,GND,GND
+A / PCIe+Power,F5,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E5,GND,E5,GND,GND
+A / PCIe+Power,G5,PETn4,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PETn4,D5,,D5,PEX1_RX3,RX11+
+A / PCIe+Power,H5,PETp7,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PETp7,C5,,C5,PEX1_RX0#,RX8-
+A / PCIe+Power,J5,PETn5,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETn5,B5,$3N4133,B5,PEX1_RX2,RX10+
+A / PCIe+Power,K5,PETp6,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETp6,A5,$3N4013,A5,PEX1_RX1#,RX9-
+A / PCIe+Power,A6,PERn7,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PERn7,K6,,K6,PEX1_TX0,TX8+
+A / PCIe+Power,B6,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J6,GND,J6,GND,GND
+A / PCIe+Power,C6,PERn6,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PERn6,H6,,H6,PEX1_TX1,TX9+
+A / PCIe+Power,D6,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G6,GND,G6,GND,GND
+A / PCIe+Power,E6,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F6,GND,F6,GND,GND
+A / PCIe+Power,F6,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E6,GND,E6,GND,GND
+A / PCIe+Power,G6,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D6,GND,D6,GND,GND
+A / PCIe+Power,H6,PETn7,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF,PETn7,C6,,C6,PEX1_RX0,RX8+
+A / PCIe+Power,J6,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B6,GND,B6,GND,GND
+A / PCIe+Power,K6,PETn6,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETn6,A6,$3N4015,A6,PEX1_RX1,RX9+
+A / PCIe+Power,A7,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K7,GND,K7,GND,GND
+A / PCIe+Power,B7,GND,GROUND,PWR,HIGH master / conflict recorded,Benchoff/dual master GND; MTF conflicts (PRSNT2_A),Ground plane,Keep conflicting MTF label in source columns; do not silently merge semantics.,Benchoff | MTF | Dual,GND,J7,GND,J7,PRSNT2_A,PRSNT2#_SXM
+A / PCIe+Power,C7,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H7,GND,H7,GND,GND
+A / PCIe+Power,D7,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G7,GND,G7,GND,GND
+A / PCIe+Power,E7,PCIE_REFCLK_P,PCIE_REFCLK,IN,HIGH pair; polarity follows Benchoff,Benchoff + dual agree after normalization; MTF clock pair agrees,PCIe 100 MHz reference-clock input; one differential input pair per V100 module,"Intrinsic module pin name. On a 4-GPU carrier instantiate a distinct board net per GPU (GPU0_PCIE_REFCLK_P, GPU1_..., etc.); do not imply the four pins are one literal shorted net.",Benchoff | MTF | Dual,REFCLK+,F7,PE0_CLK_P,F7,PEX_REFCLK,CLK+
+A / PCIe+Power,F7,PCIE_REFCLK_N,PCIE_REFCLK,IN,HIGH pair; polarity follows Benchoff,Benchoff + dual agree after normalization; MTF clock pair agrees,PCIe 100 MHz reference-clock input; one differential input pair per V100 module,"Intrinsic module pin name. On a 4-GPU carrier instantiate a distinct board net per GPU (GPU0_PCIE_REFCLK_N, GPU1_..., etc.); do not imply the four pins are one literal shorted net.",Benchoff | MTF | Dual,REFCLK-,E7,PE0_CLK_N,E7,PEX_REFCLK#,CLK-
+A / PCIe+Power,G7,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D7,GND,D7,GND,GND
+A / PCIe+Power,H7,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C7,GND,C7,GND,GND
+A / PCIe+Power,J7,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B7,GND,B7,GND,GND
+A / PCIe+Power,K7,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A7,GND,A7,GND,GND
+A / PCIe+Power,A8,PERp8,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERp8,K8,HSIP8_P,K8,PEX0_TX7#,TX7-
+A / PCIe+Power,B8,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J8,GND,J8,GND,GND
+A / PCIe+Power,C8,PERp10,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERp10,H8,HSIP10_P,H8,PEX0_TX5#,TX5-
+A / PCIe+Power,D8,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G8,GND,G8,GND,GND
+A / PCIe+Power,E8,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F8,GND,F8,GND,GND
+A / PCIe+Power,F8,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E8,GND,E8,GND,GND
+A / PCIe+Power,G8,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D8,GND,D8,GND,GND
+A / PCIe+Power,H8,PETp9,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETp9,C8,HSOP9_P,C8,PEX0_RX6#,RX6-
+A / PCIe+Power,J8,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B8,GND,B8,GND,GND
+A / PCIe+Power,K8,PETp10,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETp10,A8,HSOP10_P,A8,PEX0_RX5#,RX5-
+A / PCIe+Power,A9,PERn8,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERn8,K9,HSIP8_N,K9,PEX0_TX7,TX7+
+A / PCIe+Power,B9,PERp9,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERp9,J9,HSIP9_P,J9,PEX0_TX6#,TX6-
+A / PCIe+Power,C9,PERn10,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERn10,H9,HSIP10_N,H9,PEX0_TX5,TX5+
+A / PCIe+Power,D9,PERp11,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERp11,G9,HSIP11_P,G9,PEX0_TX4#,TX4-
+A / PCIe+Power,E9,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F9,GND,F9,GND,GND
+A / PCIe+Power,F9,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E9,GND,E9,GND,GND
+A / PCIe+Power,G9,PETp8,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETp8,D9,HSOP8_P,D9,PEX0_RX7#,RX7-
+A / PCIe+Power,H9,PETn9,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETn9,C9,HSOP9_N,C9,PEX0_RX6,RX6+
+A / PCIe+Power,J9,PETp11,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETp11,B9,HSOP11_P,B9,PEX0_RX4#,RX4-
+A / PCIe+Power,K9,PETn10,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETn10,A9,HSOP10_N,A9,PEX0_RX5,RX5+
+A / PCIe+Power,A10,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K10,GND,K10,GND,GND
+A / PCIe+Power,B10,PERn9,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERn9,J10,HSIP9_N,J10,PEX0_TX6,TX6+
+A / PCIe+Power,C10,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H10,GND,H10,GND,GND
+A / PCIe+Power,D10,PERn11,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERn11,G10,HSIP11_N,G10,PEX0_TX4,TX4+
+A / PCIe+Power,E10,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F10,GND,F10,GND,GND
+A / PCIe+Power,F10,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E10,GND,E10,GND,GND
+A / PCIe+Power,G10,PETn8,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETn8,D10,HSOP8_N,D10,PEX0_RX7,RX7+
+A / PCIe+Power,H10,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C10,GND,C10,GND,GND
+A / PCIe+Power,J10,PETn11,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETn11,B10,HSOP11_N,B10,PEX0_RX4,RX4+
+A / PCIe+Power,K10,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A10,GND,A10,GND,GND
+A / PCIe+Power,A11,PERp12,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERp12,K11,HSIP12_P,K11,PEX0_TX3#,TX3-
+A / PCIe+Power,B11,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J11,GND,J11,GND,GND
+A / PCIe+Power,C11,PERp13,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERp13,H11,HSIP13_P,H11,PEX0_TX2#,TX2-
+A / PCIe+Power,D11,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G11,GND,G11,GND,GND
+A / PCIe+Power,E11,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F11,GND,F11,GND,GND
+A / PCIe+Power,F11,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E11,GND,E11,GND,GND
+A / PCIe+Power,G11,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D11,GND,D11,GND,GND
+A / PCIe+Power,H11,PETp12,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETp12,C11,HSOP12_P,C11,PEX0_RX3#,RX3-
+A / PCIe+Power,J11,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B11,GND,B11,GND,GND
+A / PCIe+Power,K11,PETp13,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETp13,A11,HSOP13_P,A11,PEX0_RX2#,RX2-
+A / PCIe+Power,A12,PERn12,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERn12,K12,HSIP12_N,K12,PEX0_TX3,TX3+
+A / PCIe+Power,B12,PERp15,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERp15,J12,HSIP15_P,J12,PEX0_TX0#,TX0-
+A / PCIe+Power,C12,PERn13,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERn13,H12,HSIP13_N,H12,PEX0_TX2,TX2+
+A / PCIe+Power,D12,PERp14,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERp14,G12,HSIP14_P,G12,PEX0_TX1#,TX1-
+A / PCIe+Power,E12,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F12,GND,F12,GND,GND
+A / PCIe+Power,F12,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E12,GND,E12,GND,GND
+A / PCIe+Power,G12,PETp15,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETp15,D12,HSOP15_P,D12,PEX0_RX0#,RX0-
+A / PCIe+Power,H12,PETn12,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETn12,C12,HSOP12_N,C12,PEX0_RX3,RX3+
+A / PCIe+Power,J12,PETp14,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETp14,B12,HSOP14_P,B12,PEX0_RX1#,RX1-
+A / PCIe+Power,K12,PETn13,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETn13,A12,HSOP13_N,A12,PEX0_RX2,RX2+
+A / PCIe+Power,A13,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K13,GND,K13,GND,GND
+A / PCIe+Power,B13,PERn15,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERn15,J13,HSIP15_N,J13,PEX0_TX0,TX0+
+A / PCIe+Power,C13,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H13,GND,H13,GND,GND
+A / PCIe+Power,D13,PERn14,PCIE_DATA,IN,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PERn14,G13,HSIP14_N,G13,PEX0_TX1,TX1+
+A / PCIe+Power,E13,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F13,GND,F13,GND,GND
+A / PCIe+Power,F13,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E13,GND,E13,GND,GND
+A / PCIe+Power,G13,PETn15,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETn15,D13,HSOP15_N,D13,PEX0_RX0,RX0+
+A / PCIe+Power,H13,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C13,GND,C13,GND,GND
+A / PCIe+Power,J13,PETn14,PCIE_DATA,OUT,HIGH physical routing / Benchoff logical naming,Benchoff lane naming canonical; dual working implementation corroborates; MTF uses alternate PEX lane/polarity naming,PCIe differential pair; preserve canonical Benchoff lane identity,,Benchoff | MTF | Dual,PETn14,B13,HSOP14_N,B13,PEX0_RX1,RX1+
+A / PCIe+Power,K13,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A13,GND,A13,GND,GND
+A / PCIe+Power,A14,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K14,GND,K14,GND,GND
+A / PCIe+Power,B14,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J14,GND,J14,GND,GND
+A / PCIe+Power,C14,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H14,GND,H14,GND,GND
+A / PCIe+Power,D14,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G14,GND,G14,GND,GND
+A / PCIe+Power,E14,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F14,GND,F14,GND,GND
+A / PCIe+Power,F14,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E14,GND,E14,GND,GND
+A / PCIe+Power,G14,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D14,GND,D14,GND,GND
+A / PCIe+Power,H14,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C14,GND,C14,GND,GND
+A / PCIe+Power,J14,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B14,GND,B14,GND,GND
+A / PCIe+Power,K14,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A14,GND,A14,GND,GND
+A / PCIe+Power,A15,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,K15,,K15,RSVD,
+A / PCIe+Power,B15,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J15,GND,J15,GND,GND
+A / PCIe+Power,C15,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,H15,,H15,RSVD,
+A / PCIe+Power,D15,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G15,GND,G15,GND,GND
+A / PCIe+Power,E15,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F15,GND,F15,GND,GND
+A / PCIe+Power,F15,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E15,GND,E15,GND,GND
+A / PCIe+Power,G15,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D15,GND,D15,GND,GND
+A / PCIe+Power,H15,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,C15,,C15,RSVD,
+A / PCIe+Power,J15,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B15,GND,B15,GND,GND
+A / PCIe+Power,K15,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,A15,,A15,RSVD,
+A / PCIe+Power,A16,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,K16,,K16,RSVD,
+A / PCIe+Power,B16,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,J16,,J16,RSVD,
+A / PCIe+Power,C16,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,H16,,H16,RSVD,
+A / PCIe+Power,D16,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,G16,,G16,RSVD,
+A / PCIe+Power,E16,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F16,GND,F16,GND,GND
+A / PCIe+Power,F16,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E16,GND,E16,GND,GND
+A / PCIe+Power,G16,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,D16,,D16,RSVD,
+A / PCIe+Power,H16,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,C16,,C16,RSVD,
+A / PCIe+Power,J16,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,B16,,B16,RSVD,
+A / PCIe+Power,K16,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,A16,,A16,RSVD,
+A / PCIe+Power,A17,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K17,GND,K17,GND,GND
+A / PCIe+Power,B17,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,J17,,J17,RSVD,
+A / PCIe+Power,C17,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H17,GND,H17,GND,GND
+A / PCIe+Power,D17,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,G17,,G17,RSVD,
+A / PCIe+Power,E17,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F17,GND,F17,GND,GND
+A / PCIe+Power,F17,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E17,GND,E17,GND,GND
+A / PCIe+Power,G17,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,D17,,D17,RSVD,
+A / PCIe+Power,H17,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C17,GND,C17,GND,GND
+A / PCIe+Power,J17,UNRESOLVED/NC,UNRESOLVED,,LOW,Benchoff NC; no stronger evidence,,,Benchoff | MTF,NC,B17,,B17,RSVD,
+A / PCIe+Power,K17,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A17,GND,A17,GND,GND
+A / PCIe+Power,A18,PWR_GOOD,POWER_THERMAL_CTRL,UNKNOWN,LOW/MEDIUM,MTF named candidate only; Benchoff/dual do not use,Leave open/testpoint until verified,,Benchoff | MTF,NC,K18,,K18,PWR_GOOD,PWR_GOOD
+A / PCIe+Power,B18,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J18,GND,J18,GND,GND
+A / PCIe+Power,C18,I2C_ADDR0,STRAP,STRAP/IN (candidate),LOW/MEDIUM,MTF named candidate only; Benchoff/dual do not use,Leave open/testpoint until verified,,Benchoff | MTF,NC,H18,,H18,I2C_ADDR0,I2CADDR0
+A / PCIe+Power,D18,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G18,GND,G18,GND,GND
+A / PCIe+Power,E18,PERST#,PCIE_RESET,IN,HIGH,Benchoff + dual + MTF agree after orientation normalization,Host PCIe PERST#,PCIe edge A11 PERST# routes here in the normalized dual implementation.,Benchoff | MTF | Dual,/PERST,F18,PERST_N,F18,PERST#,PERST#
+A / PCIe+Power,F18,PWR_BRAKE#,POWER_THERMAL_CTRL,UNKNOWN,LOW/MEDIUM,MTF named candidate only; Benchoff/dual do not use,Leave open/testpoint until verified,,Benchoff | MTF,NC,E18,,E18,PWR_BRAKE#,PWR_BRAKE#
+A / PCIe+Power,G18,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D18,GND,D18,GND,GND
+A / PCIe+Power,H18,I2C_ADDR1,STRAP,STRAP/IN (candidate),LOW/MEDIUM,MTF named candidate only; Benchoff/dual do not use,Leave open/testpoint until verified,,Benchoff | MTF,NC,C18,,C18,I2C_ADDR1,I2CADDR1
+A / PCIe+Power,J18,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B18,GND,B18,GND,GND
+A / PCIe+Power,K18,PWR_EN,POWER_THERMAL_CTRL,IN (likely),HIGH electrical / MEDIUM-HIGH semantic,Benchoff measured diode-fed node + dual reproduces circuit + MTF names PWR_EN,+3.3V via Schottky in Benchoff/dual known-working circuit,Known-working electrical treatment: +3.3V through Schottky to K18; measured ~0.4V drop by Benchoff. MTF semantic name: PWR_EN.,Benchoff | MTF | Dual,Prot/Cathode,A18,$3N4388,A18,PWR_EN,PWR_EN
+A / PCIe+Power,A19,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K19,GND,K19,GND,GND
+A / PCIe+Power,B19,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J19,GND,J19,GND,GND
+A / PCIe+Power,C19,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H19,GND,H19,GND,GND
+A / PCIe+Power,D19,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G19,GND,G19,GND,GND
+A / PCIe+Power,E19,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F19,GND,F19,GND,GND
+A / PCIe+Power,F19,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E19,GND,E19,GND,GND
+A / PCIe+Power,G19,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D19,GND,D19,GND,GND
+A / PCIe+Power,H19,JTAG_SEL,DEBUG,UNKNOWN,LOW/MEDIUM,MTF named candidate only; Benchoff/dual do not use,Leave open/testpoint until verified,,Benchoff | MTF,NC,C19,,C19,JTAG_SEL,JTAG_SEL
+A / PCIe+Power,J19,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B19,GND,B19,GND,GND
+A / PCIe+Power,K19,THERM_OVERT#,POWER_THERMAL_CTRL,OUT/open-drain (likely),HIGH electrical / MEDIUM-HIGH semantic,Benchoff measured pull-up node + dual reproduces circuit + MTF names THERM_OVERT#,10k pull-up to +3.3V in Benchoff/dual; likely active-low alert,Known-working electrical treatment: 10k pull-up to +3.3V. MTF semantic name: THERM_OVERT#; active-low/open-drain behaviour is likely but not official.,Benchoff | MTF | Dual,Prot/GND,A19,$3N4005,A19,THERM_OVERT#,THERM_OVER#
+A / PCIe+Power,A20,+5V_AUX,POWER_AUX,PWR,HIGH implementation,IMPLEMENTATION SOLVED FOR REV A — dual + mtf both use +5 V here; 4-GPU carrier uses one dedicated Mini560 5 V/5 A rail per V100,Feed from dedicated per-GPU 5 V auxiliary rail generated locally from 12 V by one Mini560 5 V/5 A converter,Known-working dual carrier shares one external Mini560 5 V/5 A converter across two V100s. Rev A intentionally over-provisions and isolates the rail by using one converter per GPU. Actual V100 +5 V current may be measured later for optimisation; it is not a build blocker.,Benchoff | MTF | Dual,NC,K20,+5V,K20,+5V_AUX,+5V
+A / PCIe+Power,B20,+5V_AUX,POWER_AUX,PWR,HIGH implementation,IMPLEMENTATION SOLVED FOR REV A — dual + mtf both use +5 V here; 4-GPU carrier uses one dedicated Mini560 5 V/5 A rail per V100,Feed from dedicated per-GPU 5 V auxiliary rail generated locally from 12 V by one Mini560 5 V/5 A converter,Known-working dual carrier shares one external Mini560 5 V/5 A converter across two V100s. Rev A intentionally over-provisions and isolates the rail by using one converter per GPU. Actual V100 +5 V current may be measured later for optimisation; it is not a build blocker.,Benchoff | MTF | Dual,NC,J20,+5V,J20,+5V_AUX,+5V
+A / PCIe+Power,C20,+5V_AUX,POWER_AUX,PWR,HIGH implementation,IMPLEMENTATION SOLVED FOR REV A — dual + mtf both use +5 V here; 4-GPU carrier uses one dedicated Mini560 5 V/5 A rail per V100,Feed from dedicated per-GPU 5 V auxiliary rail generated locally from 12 V by one Mini560 5 V/5 A converter,Known-working dual carrier shares one external Mini560 5 V/5 A converter across two V100s. Rev A intentionally over-provisions and isolates the rail by using one converter per GPU. Actual V100 +5 V current may be measured later for optimisation; it is not a build blocker.,Benchoff | MTF | Dual,NC,H20,+5V,H20,+5V_AUX,+5V
+A / PCIe+Power,D20,+5V_AUX,POWER_AUX,PWR,HIGH implementation,IMPLEMENTATION SOLVED FOR REV A — dual + mtf both use +5 V here; 4-GPU carrier uses one dedicated Mini560 5 V/5 A rail per V100,Feed from dedicated per-GPU 5 V auxiliary rail generated locally from 12 V by one Mini560 5 V/5 A converter,Known-working dual carrier shares one external Mini560 5 V/5 A converter across two V100s. Rev A intentionally over-provisions and isolates the rail by using one converter per GPU. Actual V100 +5 V current may be measured later for optimisation; it is not a build blocker.,Benchoff | MTF | Dual,NC,G20,+5V,G20,+5V_AUX,+5V
+A / PCIe+Power,E20,+5V_AUX,POWER_AUX,PWR,HIGH implementation,IMPLEMENTATION SOLVED FOR REV A — dual + mtf both use +5 V here; 4-GPU carrier uses one dedicated Mini560 5 V/5 A rail per V100,Feed from dedicated per-GPU 5 V auxiliary rail generated locally from 12 V by one Mini560 5 V/5 A converter,Known-working dual carrier shares one external Mini560 5 V/5 A converter across two V100s. Rev A intentionally over-provisions and isolates the rail by using one converter per GPU. Actual V100 +5 V current may be measured later for optimisation; it is not a build blocker.,Benchoff | MTF | Dual,NC,F20,+5V,F20,+5V_AUX,+5V
+A / PCIe+Power,F20,JTAG_TDI,DEBUG,UNKNOWN,LOW/MEDIUM,MTF named candidate only; Benchoff/dual do not use,Leave open/testpoint until verified,,Benchoff | MTF,NC,E20,,E20,JTAG_TDI,JTAG_TDI
+A / PCIe+Power,G20,JTAG_TDO,DEBUG,UNKNOWN,LOW/MEDIUM,MTF named candidate only; Benchoff/dual do not use,Leave open/testpoint until verified,,Benchoff | MTF,NC,D20,,D20,JTAG_TDO,JTAG_TDO
+A / PCIe+Power,H20,JTAG_TCLK,DEBUG,UNKNOWN,LOW/MEDIUM,MTF named candidate only; Benchoff/dual do not use,Leave open/testpoint until verified,,Benchoff | MTF,NC,C20,,C20,JTAG_TCLK,JTAG_TCLK
+A / PCIe+Power,J20,JTAG_TMS,DEBUG,UNKNOWN,LOW/MEDIUM,MTF named candidate only; Benchoff/dual do not use,Leave open/testpoint until verified,,Benchoff | MTF,NC,B20,,B20,JTAG_TMS,JTAG_TMS
+A / PCIe+Power,K20,JTAG_TRST#,DEBUG,UNKNOWN,LOW/MEDIUM,MTF named candidate only; Benchoff/dual do not use,Leave open/testpoint until verified,,Benchoff | MTF,NC,A20,,A20,JTAG_TRST#,JTAG_TRST#
+A / PCIe+Power,A21,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K21,GND,K21,GND,GND
+A / PCIe+Power,B21,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J21,GND,J21,GND,GND
+A / PCIe+Power,C21,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H21,GND,H21,GND,GND
+A / PCIe+Power,D21,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G21,GND,G21,GND,GND
+A / PCIe+Power,E21,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F21,GND,F21,GND,GND
+A / PCIe+Power,F21,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E21,GND,E21,GND,GND
+A / PCIe+Power,G21,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D21,GND,D21,GND,GND
+A / PCIe+Power,H21,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C21,GND,C21,GND,GND
+A / PCIe+Power,J21,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B21,GND,B21,GND,GND
+A / PCIe+Power,K21,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A21,GND,A21,GND,GND
+A / PCIe+Power,A22,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,K22,12V,K22,12V,+12V
+A / PCIe+Power,B22,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,J22,12V,J22,12V,+12V
+A / PCIe+Power,C22,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,H22,12V,H22,12V,+12V
+A / PCIe+Power,D22,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,G22,12V,G22,12V,+12V
+A / PCIe+Power,E22,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,F22,12V,F22,12V,+12V
+A / PCIe+Power,F22,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,E22,12V,E22,12V,+12V
+A / PCIe+Power,G22,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,D22,12V,D22,12V,+12V
+A / PCIe+Power,H22,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,C22,12V,C22,12V,+12V
+A / PCIe+Power,J22,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,B22,12V,B22,12V,+12V
+A / PCIe+Power,K22,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,A22,12V,A22,12V,+12V
+A / PCIe+Power,A23,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,K23,12V,K23,12V,+12V
+A / PCIe+Power,B23,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,J23,12V,J23,12V,+12V
+A / PCIe+Power,C23,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,H23,12V,H23,12V,+12V
+A / PCIe+Power,D23,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,G23,12V,G23,12V,+12V
+A / PCIe+Power,E23,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,F23,12V,F23,12V,+12V
+A / PCIe+Power,F23,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,E23,12V,E23,12V,+12V
+A / PCIe+Power,G23,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,D23,12V,D23,12V,+12V
+A / PCIe+Power,H23,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,C23,12V,C23,12V,+12V
+A / PCIe+Power,J23,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,B23,12V,B23,12V,+12V
+A / PCIe+Power,K23,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,A23,12V,A23,12V,+12V
+A / PCIe+Power,A24,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K24,GND,K24,GND,GND
+A / PCIe+Power,B24,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J24,GND,J24,GND,GND
+A / PCIe+Power,C24,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H24,GND,H24,GND,GND
+A / PCIe+Power,D24,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G24,GND,G24,GND,GND
+A / PCIe+Power,E24,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F24,GND,F24,GND,GND
+A / PCIe+Power,F24,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E24,GND,E24,GND,GND
+A / PCIe+Power,G24,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D24,GND,D24,GND,GND
+A / PCIe+Power,H24,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C24,GND,C24,GND,GND
+A / PCIe+Power,J24,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B24,GND,B24,GND,GND
+A / PCIe+Power,K24,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A24,GND,A24,GND,GND
+A / PCIe+Power,A25,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,K25,12V,K25,12V,+12V
+A / PCIe+Power,B25,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,J25,12V,J25,12V,+12V
+A / PCIe+Power,C25,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,H25,12V,H25,12V,+12V
+A / PCIe+Power,D25,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,G25,12V,G25,12V,+12V
+A / PCIe+Power,E25,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,F25,12V,F25,12V,+12V
+A / PCIe+Power,F25,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,E25,12V,E25,12V,+12V
+A / PCIe+Power,G25,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,D25,12V,D25,12V,+12V
+A / PCIe+Power,H25,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,C25,12V,C25,12V,+12V
+A / PCIe+Power,J25,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,B25,12V,B25,12V,+12V
+A / PCIe+Power,K25,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,A25,12V,A25,12V,+12V
+A / PCIe+Power,A26,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,K26,12V,K26,12V,+12V
+A / PCIe+Power,B26,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,J26,12V,J26,12V,+12V
+A / PCIe+Power,C26,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,H26,12V,H26,12V,+12V
+A / PCIe+Power,D26,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,G26,12V,G26,12V,+12V
+A / PCIe+Power,E26,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,F26,12V,F26,12V,+12V
+A / PCIe+Power,F26,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,E26,12V,E26,12V,+12V
+A / PCIe+Power,G26,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,D26,12V,D26,12V,+12V
+A / PCIe+Power,H26,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,C26,12V,C26,12V,+12V
+A / PCIe+Power,J26,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,B26,12V,B26,12V,+12V
+A / PCIe+Power,K26,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,A26,12V,A26,12V,+12V
+A / PCIe+Power,A27,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K27,GND,K27,GND,GND
+A / PCIe+Power,B27,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J27,GND,J27,GND,GND
+A / PCIe+Power,C27,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H27,GND,H27,GND,GND
+A / PCIe+Power,D27,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G27,GND,G27,GND,GND
+A / PCIe+Power,E27,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F27,GND,F27,GND,GND
+A / PCIe+Power,F27,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E27,GND,E27,GND,GND
+A / PCIe+Power,G27,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D27,GND,D27,GND,GND
+A / PCIe+Power,H27,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C27,GND,C27,GND,GND
+A / PCIe+Power,J27,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B27,GND,B27,GND,GND
+A / PCIe+Power,K27,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A27,GND,A27,GND,GND
+A / PCIe+Power,A28,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,K28,12V,K28,12V,+12V
+A / PCIe+Power,B28,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,J28,12V,J28,12V,+12V
+A / PCIe+Power,C28,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,H28,12V,H28,12V,+12V
+A / PCIe+Power,D28,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,G28,12V,G28,12V,+12V
+A / PCIe+Power,E28,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,F28,12V,F28,12V,+12V
+A / PCIe+Power,F28,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,E28,12V,E28,12V,+12V
+A / PCIe+Power,G28,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,D28,12V,D28,12V,+12V
+A / PCIe+Power,H28,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,C28,12V,C28,12V,+12V
+A / PCIe+Power,J28,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,B28,12V,B28,12V,+12V
+A / PCIe+Power,K28,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,A28,12V,A28,12V,+12V
+A / PCIe+Power,A29,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,K29,12V,K29,12V,+12V
+A / PCIe+Power,B29,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,J29,12V,J29,12V,+12V
+A / PCIe+Power,C29,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,H29,12V,H29,12V,+12V
+A / PCIe+Power,D29,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,G29,12V,G29,12V,+12V
+A / PCIe+Power,E29,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,F29,12V,F29,12V,+12V
+A / PCIe+Power,F29,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,E29,12V,E29,12V,+12V
+A / PCIe+Power,G29,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,D29,12V,D29,12V,+12V
+A / PCIe+Power,H29,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,C29,12V,C29,12V,+12V
+A / PCIe+Power,J29,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,B29,12V,B29,12V,+12V
+A / PCIe+Power,K29,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,A29,12V,A29,12V,+12V
+A / PCIe+Power,A30,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K30,GND,K30,GND,GND
+A / PCIe+Power,B30,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J30,GND,J30,GND,GND
+A / PCIe+Power,C30,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H30,GND,H30,GND,GND
+A / PCIe+Power,D30,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G30,GND,G30,GND,GND
+A / PCIe+Power,E30,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F30,GND,F30,GND,GND
+A / PCIe+Power,F30,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E30,GND,E30,GND,GND
+A / PCIe+Power,G30,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D30,GND,D30,GND,GND
+A / PCIe+Power,H30,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C30,GND,C30,GND,GND
+A / PCIe+Power,J30,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B30,GND,B30,GND,GND
+A / PCIe+Power,K30,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A30,GND,A30,GND,GND
+A / PCIe+Power,A31,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,K31,12V,K31,12V,+12V
+A / PCIe+Power,B31,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,J31,12V,J31,12V,+12V
+A / PCIe+Power,C31,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,H31,12V,H31,12V,+12V
+A / PCIe+Power,D31,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,G31,12V,G31,12V,+12V
+A / PCIe+Power,E31,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,F31,12V,F31,12V,+12V
+A / PCIe+Power,F31,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,E31,12V,E31,12V,+12V
+A / PCIe+Power,G31,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,D31,12V,D31,12V,+12V
+A / PCIe+Power,H31,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,C31,12V,C31,12V,+12V
+A / PCIe+Power,J31,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,B31,12V,B31,12V,+12V
+A / PCIe+Power,K31,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,A31,12V,A31,12V,+12V
+A / PCIe+Power,A32,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,K32,12V,K32,12V,+12V
+A / PCIe+Power,B32,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,J32,12V,J32,12V,+12V
+A / PCIe+Power,C32,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,H32,12V,H32,12V,+12V
+A / PCIe+Power,D32,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,G32,12V,G32,12V,+12V
+A / PCIe+Power,E32,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,F32,12V,F32,12V,+12V
+A / PCIe+Power,F32,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,E32,12V,E32,12V,+12V
+A / PCIe+Power,G32,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,D32,12V,D32,12V,+12V
+A / PCIe+Power,H32,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,C32,12V,C32,12V,+12V
+A / PCIe+Power,J32,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,B32,12V,B32,12V,+12V
+A / PCIe+Power,K32,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,A32,12V,A32,12V,+12V
+A / PCIe+Power,A33,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K33,GND,K33,GND,GND
+A / PCIe+Power,B33,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J33,GND,J33,GND,GND
+A / PCIe+Power,C33,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H33,GND,H33,GND,GND
+A / PCIe+Power,D33,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G33,GND,G33,GND,GND
+A / PCIe+Power,E33,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F33,GND,F33,GND,GND
+A / PCIe+Power,F33,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E33,GND,E33,GND,GND
+A / PCIe+Power,G33,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D33,GND,D33,GND,GND
+A / PCIe+Power,H33,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C33,GND,C33,GND,GND
+A / PCIe+Power,J33,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B33,GND,B33,GND,GND
+A / PCIe+Power,K33,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A33,GND,A33,GND,GND
+A / PCIe+Power,A34,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,K34,12V,K34,12V,+12V
+A / PCIe+Power,B34,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,J34,12V,J34,12V,+12V
+A / PCIe+Power,C34,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,H34,12V,H34,12V,+12V
+A / PCIe+Power,D34,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,G34,12V,G34,12V,+12V
+A / PCIe+Power,E34,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,F34,12V,F34,12V,+12V
+A / PCIe+Power,F34,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,E34,12V,E34,12V,+12V
+A / PCIe+Power,G34,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,D34,12V,D34,12V,+12V
+A / PCIe+Power,H34,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,C34,12V,C34,12V,+12V
+A / PCIe+Power,J34,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,B34,12V,B34,12V,+12V
+A / PCIe+Power,K34,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,A34,12V,A34,12V,+12V
+A / PCIe+Power,A35,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,K35,12V,K35,12V,+12V
+A / PCIe+Power,B35,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,J35,12V,J35,12V,+12V
+A / PCIe+Power,C35,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,H35,12V,H35,12V,+12V
+A / PCIe+Power,D35,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,G35,12V,G35,12V,+12V
+A / PCIe+Power,E35,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,F35,12V,F35,12V,+12V
+A / PCIe+Power,F35,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,E35,12V,E35,12V,+12V
+A / PCIe+Power,G35,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,D35,12V,D35,12V,+12V
+A / PCIe+Power,H35,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,C35,12V,C35,12V,+12V
+A / PCIe+Power,J35,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,B35,12V,B35,12V,+12V
+A / PCIe+Power,K35,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,A35,12V,A35,12V,+12V
+A / PCIe+Power,A36,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,K36,GND,K36,GND,GND
+A / PCIe+Power,B36,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J36,GND,J36,GND,GND
+A / PCIe+Power,C36,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H36,GND,H36,GND,GND
+A / PCIe+Power,D36,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G36,GND,G36,GND,GND
+A / PCIe+Power,E36,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F36,GND,F36,GND,GND
+A / PCIe+Power,F36,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E36,GND,E36,GND,GND
+A / PCIe+Power,G36,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D36,GND,D36,GND,GND
+A / PCIe+Power,H36,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C36,GND,C36,GND,GND
+A / PCIe+Power,J36,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B36,GND,B36,GND,GND
+A / PCIe+Power,K36,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A36,GND,A36,GND,GND
+A / PCIe+Power,A37,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,K37,12V,K37,12V,+12V
+A / PCIe+Power,B37,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,J37,12V,J37,12V,+12V
+A / PCIe+Power,C37,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,H37,12V,H37,12V,+12V
+A / PCIe+Power,D37,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,G37,12V,G37,12V,+12V
+A / PCIe+Power,E37,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,F37,12V,F37,12V,+12V
+A / PCIe+Power,F37,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,E37,12V,E37,12V,+12V
+A / PCIe+Power,G37,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,D37,12V,D37,12V,+12V
+A / PCIe+Power,H37,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,C37,12V,C37,12V,+12V
+A / PCIe+Power,J37,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,B37,12V,B37,12V,+12V
+A / PCIe+Power,K37,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,A37,12V,A37,12V,+12V
+A / PCIe+Power,A38,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,K38,12V,K38,12V,+12V
+A / PCIe+Power,B38,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,J38,12V,J38,12V,+12V
+A / PCIe+Power,C38,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,H38,12V,H38,12V,+12V
+A / PCIe+Power,D38,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,G38,12V,G38,12V,+12V
+A / PCIe+Power,E38,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,F38,12V,F38,12V,+12V
+A / PCIe+Power,F38,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,E38,12V,E38,12V,+12V
+A / PCIe+Power,G38,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,D38,12V,D38,12V,+12V
+A / PCIe+Power,H38,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,C38,12V,C38,12V,+12V
+A / PCIe+Power,J38,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,B38,12V,B38,12V,+12V
+A / PCIe+Power,K38,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,A38,12V,A38,12V,+12V
+A / PCIe+Power,A39,GND,GROUND,PWR,HIGH master / conflict recorded,Benchoff/dual master GND; MTF conflicts (PRSNT2_B),Ground plane,Keep conflicting MTF label in source columns; do not silently merge semantics.,Benchoff | MTF | Dual,GND,K39,GND,K39,PRSNT2_B,SXM_PRSNT2
+A / PCIe+Power,B39,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,J39,GND,J39,GND,GND
+A / PCIe+Power,C39,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,H39,GND,H39,GND,GND
+A / PCIe+Power,D39,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,G39,GND,G39,GND,GND
+A / PCIe+Power,E39,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,F39,GND,F39,GND,GND
+A / PCIe+Power,F39,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,E39,GND,E39,GND,GND
+A / PCIe+Power,G39,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,D39,GND,D39,GND,GND
+A / PCIe+Power,H39,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,C39,GND,C39,GND,GND
+A / PCIe+Power,J39,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,B39,GND,B39,GND,GND
+A / PCIe+Power,K39,GND,GROUND,PWR,HIGH,Benchoff + MTF agree + dual,Ground plane,,Benchoff | MTF | Dual,GND,A39,GND,A39,GND,GND
+A / PCIe+Power,A40,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,K40,12V,K40,12V,+12V
+A / PCIe+Power,B40,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,J40,12V,J40,12V,+12V
+A / PCIe+Power,C40,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,H40,12V,H40,12V,+12V
+A / PCIe+Power,D40,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,G40,12V,G40,12V,+12V
+A / PCIe+Power,E40,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,F40,12V,F40,12V,+12V
+A / PCIe+Power,F40,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,E40,12V,E40,12V,+12V
+A / PCIe+Power,G40,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,D40,12V,D40,12V,+12V
+A / PCIe+Power,H40,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,C40,12V,C40,12V,+12V
+A / PCIe+Power,J40,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,B40,12V,B40,12V,+12V
+A / PCIe+Power,K40,12V,POWER_12V,PWR,HIGH,Benchoff + MTF agree + dual,+12V main power,,Benchoff | MTF | Dual,12V,A40,12V,A40,12V,+12V

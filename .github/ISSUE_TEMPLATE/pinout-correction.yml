@@ -1,0 +1,73 @@
+name: Pinout or NVLink correction
+description: Suggest a contact assignment, coordinate or connection correction with its evidence.
+title: "[Reference correction] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Include what you observed and what remains uncertain. Source comparisons and hypotheses are welcome when identified clearly.
+  - type: input
+    id: revision
+    attributes:
+      label: Release tag or commit
+      placeholder: v0.1.0-reference, or the commit hash you checked
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected reference
+      options:
+        - Connector A
+        - Connector B
+        - Two-GPU NVLink connections
+        - Four-GPU NVLink connections
+        - Coordinate convention or footprint
+        - Other reference information
+    validations:
+      required: true
+  - type: input
+    id: contacts
+    attributes:
+      label: Exact connector, pad or connection endpoints
+      description: Include GPU identifiers where relevant; a pad coordinate alone does not identify its connector.
+      placeholder: B/E20, or GPU0 / B / pad to GPU1 / B / pad
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Current entry and proposed correction
+      description: Give the current signal, coordinate or connection and what you believe it should be.
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence-kind
+    attributes:
+      label: Basis of the correction
+      options:
+        - Direct measurement
+        - Comparison with a public source
+        - Interpretation or hypothesis
+        - Not yet established
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources or measurement details
+      description: Link the source and exact location, or describe the board/module, method and result. Attach relevant photos or diagrams here.
+    validations:
+      required: true
+  - type: textarea
+    id: orientation
+    attributes:
+      label: Physical view and orientation
+      description: State module/carrier view, connector identity, mirroring and rotation. Write unknown where these are not established.
+    validations:
+      required: true
+  - type: textarea
+    id: affected-files
+    attributes:
+      label: Affected files and remaining uncertainty
+      description: Note which workbook rows, CSVs, symbols, schematics or diagrams need changing, and any conflicting evidence.

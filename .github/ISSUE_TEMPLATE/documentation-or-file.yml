@@ -1,0 +1,30 @@
+name: Documentation or file problem
+description: Report unclear wording, a broken download or a problem opening a reference file.
+title: "[Reference help] "
+body:
+  - type: input
+    id: revision
+    attributes:
+      label: Release tag or commit
+      placeholder: v0.1.0-reference, or the commit hash you checked
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: Page, file or download
+      placeholder: README section, workbook sheet, PDF page or KiCad project path
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened, and what would help?
+      description: Explain the unclear wording or steps to reproduce a file problem. You can attach a screenshot.
+    validations:
+      required: true
+  - type: input
+    id: application
+    attributes:
+      label: Application and version, if relevant
+      placeholder: KiCad version, spreadsheet application or PDF viewer, and operating system

@@ -1,0 +1,49 @@
+Canonical_Group,Human_Group,Lane,RX_P,RX_N,TX_P,TX_N,Validation_Status
+NVHS0,NVLink Group 0,0,J40,J39,D40,D39,VALIDATED — complete group matches known-working dual board
+NVHS0,NVLink Group 0,1,G40,G39,B40,B39,
+NVHS0,NVLink Group 0,2,H39,H38,A39,A38,
+NVHS0,NVLink Group 0,3,K39,K38,C39,C38,
+NVHS0,NVLink Group 0,4,G37,G36,B37,B36,
+NVHS0,NVLink Group 0,5,H36,H35,A36,A35,
+NVHS0,NVLink Group 0,6,J37,J36,C36,C35,
+NVHS0,NVLink Group 0,7,K36,K35,D37,D36,VALIDATED — complete group matches known-working dual board
+NVHS1,NVLink Group 1,0,K33,K32,C33,C32,VALIDATED — complete group matches known-working dual board
+NVHS1,NVLink Group 1,1,H33,H32,A33,A32,VALIDATED — complete group matches known-working dual board
+NVHS1,NVLink Group 1,2,G32,G31,B32,B31,VALIDATED — complete group matches known-working dual board
+NVHS1,NVLink Group 1,3,J32,J31,D32,D31,VALIDATED — complete group matches known-working dual board
+NVHS1,NVLink Group 1,4,H30,H29,A30,A29,VALIDATED — complete group matches known-working dual board
+NVHS1,NVLink Group 1,5,G29,G28,B29,B28,VALIDATED — complete group matches known-working dual board
+NVHS1,NVLink Group 1,6,J29,J28,C30,C29,VALIDATED — complete group matches known-working dual board
+NVHS1,NVLink Group 1,7,K30,K29,D29,D28,VALIDATED — complete group matches known-working dual board
+NVHS2,NVLink Group 2,0,J12,J11,D12,D11,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS2,NVLink Group 2,1,G12,G11,B12,B11,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS2,NVLink Group 2,2,H11,H10,A11,A10,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS2,NVLink Group 2,3,K11,K10,C11,C10,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS2,NVLink Group 2,4,G9,G8,B9,B8,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS2,NVLink Group 2,5,H8,H7,A8,A7,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS2,NVLink Group 2,6,J9,J8,C8,C7,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS2,NVLink Group 2,7,K8,K7,D9,D8,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS3,NVLink Group 3,0,J6,J5,D6,D5,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS3,NVLink Group 3,1,G6,G5,B6,B5,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS3,NVLink Group 3,2,H5,H4,A5,A4,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS3,NVLink Group 3,3,K5,K4,C5,C4,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS3,NVLink Group 3,4,G3,G2,B3,B2,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS3,NVLink Group 3,5,H2,H1,A2,A1,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS3,NVLink Group 3,6,J3,J2,C2,C1,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS3,NVLink Group 3,7,K2,K1,D3,D2,SUPPORTED — complete mtf map; not directly exercised by partial dual board
+NVHS4,NVLink Group 4,0,J26,J25,D26,D25,VALIDATED — complete group matches known-working dual board
+NVHS4,NVLink Group 4,1,G26,G25,B26,B25,VALIDATED — complete group matches known-working dual board
+NVHS4,NVLink Group 4,2,H25,H24,A25,A24,VALIDATED — complete group matches known-working dual board
+NVHS4,NVLink Group 4,3,K25,K24,C25,C24,VALIDATED — complete group matches known-working dual board
+NVHS4,NVLink Group 4,4,G23,G22,B23,B22,VALIDATED — complete group matches known-working dual board
+NVHS4,NVLink Group 4,5,H22,H21,A22,A21,VALIDATED — complete group matches known-working dual board
+NVHS4,NVLink Group 4,6,J23,J22,C22,C21,VALIDATED — complete group matches known-working dual board
+NVHS4,NVLink Group 4,7,K22,K21,D23,D22,VALIDATED — complete group matches known-working dual board
+NVHS5,NVLink Group 5,0,K19,K18,C19,C18,VALIDATED — complete group matches known-working dual board
+NVHS5,NVLink Group 5,1,H19,H18,A19,A18,VALIDATED — complete group matches known-working dual board
+NVHS5,NVLink Group 5,2,G18,G17,B18,B17,VALIDATED — complete group matches known-working dual board
+NVHS5,NVLink Group 5,3,J18,J17,D18,D17,VALIDATED — complete group matches known-working dual board
+NVHS5,NVLink Group 5,4,H16,H15,A16,A15,VALIDATED — complete group matches known-working dual board
+NVHS5,NVLink Group 5,5,G15,G14,B15,B14,VALIDATED — complete group matches known-working dual board
+NVHS5,NVLink Group 5,6,J15,J14,C16,C15,VALIDATED — complete group matches known-working dual board
+NVHS5,NVLink Group 5,7,K16,K15,D15,D14,VALIDATED — complete group matches known-working dual board

@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "V100_Reference") (type "KiCad") (uri "${KIPRJMOD}/../V100_Reference.kicad_sym") (options "") (descr "Shared curated V100 connectors")))

@@ -1,0 +1,1256 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1395" height="1665" viewBox="0 0 1395 1665" role="img"><title>Connector B: canonical contact map</title><desc>Canonical coordinates only. Physical viewing direction and mating footprint require confirmation.</desc><rect width="100%" height="100%" fill="#1e1e2e"/><g font-family="DejaVu Sans,Arial,sans-serif">
+<text x="38" y="58" fill="#b4befe" font-size="34" font-weight="bold">Connector B</text>
+<text x="38" y="94" fill="#bac2de" font-size="18" font-weight="normal">Canonical contact coordinates · Benchoff convention</text>
+<text x="38" y="126" fill="#bac2de" font-size="17" font-weight="normal">Reference map, not a verified footprint orientation. Each cell shows pad and signal.</text>
+<text x="108" y="166" fill="#89b4fa" font-size="20" font-weight="bold">A</text>
+<text x="236" y="166" fill="#89b4fa" font-size="20" font-weight="bold">B</text>
+<text x="364" y="166" fill="#89b4fa" font-size="20" font-weight="bold">C</text>
+<text x="492" y="166" fill="#89b4fa" font-size="20" font-weight="bold">D</text>
+<text x="620" y="166" fill="#89b4fa" font-size="20" font-weight="bold">E</text>
+<text x="748" y="166" fill="#89b4fa" font-size="20" font-weight="bold">F</text>
+<text x="876" y="166" fill="#89b4fa" font-size="20" font-weight="bold">G</text>
+<text x="1004" y="166" fill="#89b4fa" font-size="20" font-weight="bold">H</text>
+<text x="1132" y="166" fill="#89b4fa" font-size="20" font-weight="bold">J</text>
+<text x="1260" y="166" fill="#89b4fa" font-size="20" font-weight="bold">K</text>
+<text x="23" y="203" fill="#bac2de" font-size="13" font-weight="normal">1</text>
+<rect x="64" y="180" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="191" fill="#bac2de" font-size="8" font-weight="normal">A1</text>
+<text x="69" y="206" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L5_N</text>
+<rect x="192" y="180" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="191" fill="#bac2de" font-size="8" font-weight="normal">B1</text>
+<text x="197" y="206" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="180" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="191" fill="#bac2de" font-size="8" font-weight="normal">C1</text>
+<text x="325" y="206" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L6_N</text>
+<rect x="448" y="180" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="191" fill="#bac2de" font-size="8" font-weight="normal">D1</text>
+<text x="453" y="206" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="180" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="191" fill="#bac2de" font-size="8" font-weight="normal">E1</text>
+<text x="581" y="206" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="180" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="191" fill="#bac2de" font-size="8" font-weight="normal">F1</text>
+<text x="709" y="206" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="180" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="191" fill="#bac2de" font-size="8" font-weight="normal">G1</text>
+<text x="837" y="206" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="180" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="191" fill="#bac2de" font-size="8" font-weight="normal">H1</text>
+<text x="965" y="206" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L5_N</text>
+<rect x="1088" y="180" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="191" fill="#bac2de" font-size="8" font-weight="normal">J1</text>
+<text x="1093" y="206" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="180" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="191" fill="#bac2de" font-size="8" font-weight="normal">K1</text>
+<text x="1221" y="206" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L7_N</text>
+<text x="23" y="238" fill="#bac2de" font-size="13" font-weight="normal">2</text>
+<rect x="64" y="215" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="226" fill="#bac2de" font-size="8" font-weight="normal">A2</text>
+<text x="69" y="241" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L5_P</text>
+<rect x="192" y="215" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="226" fill="#bac2de" font-size="8" font-weight="normal">B2</text>
+<text x="197" y="241" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L4_N</text>
+<rect x="320" y="215" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="226" fill="#bac2de" font-size="8" font-weight="normal">C2</text>
+<text x="325" y="241" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L6_P</text>
+<rect x="448" y="215" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="226" fill="#bac2de" font-size="8" font-weight="normal">D2</text>
+<text x="453" y="241" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L7_N</text>
+<rect x="576" y="215" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="226" fill="#bac2de" font-size="8" font-weight="normal">E2</text>
+<text x="581" y="241" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="215" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="226" fill="#bac2de" font-size="8" font-weight="normal">F2</text>
+<text x="709" y="241" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="215" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="226" fill="#bac2de" font-size="8" font-weight="normal">G2</text>
+<text x="837" y="241" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L4_N</text>
+<rect x="960" y="215" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="226" fill="#bac2de" font-size="8" font-weight="normal">H2</text>
+<text x="965" y="241" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L5_P</text>
+<rect x="1088" y="215" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="226" fill="#bac2de" font-size="8" font-weight="normal">J2</text>
+<text x="1093" y="241" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L6_N</text>
+<rect x="1216" y="215" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="226" fill="#bac2de" font-size="8" font-weight="normal">K2</text>
+<text x="1221" y="241" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L7_P</text>
+<text x="23" y="273" fill="#bac2de" font-size="13" font-weight="normal">3</text>
+<rect x="64" y="250" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="261" fill="#bac2de" font-size="8" font-weight="normal">A3</text>
+<text x="69" y="276" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="250" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="261" fill="#bac2de" font-size="8" font-weight="normal">B3</text>
+<text x="197" y="276" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L4_P</text>
+<rect x="320" y="250" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="261" fill="#bac2de" font-size="8" font-weight="normal">C3</text>
+<text x="325" y="276" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="250" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="261" fill="#bac2de" font-size="8" font-weight="normal">D3</text>
+<text x="453" y="276" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L7_P</text>
+<rect x="576" y="250" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="261" fill="#bac2de" font-size="8" font-weight="normal">E3</text>
+<text x="581" y="276" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="250" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="261" fill="#bac2de" font-size="8" font-weight="normal">F3</text>
+<text x="709" y="276" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="250" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="261" fill="#bac2de" font-size="8" font-weight="normal">G3</text>
+<text x="837" y="276" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L4_P</text>
+<rect x="960" y="250" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="261" fill="#bac2de" font-size="8" font-weight="normal">H3</text>
+<text x="965" y="276" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="250" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="261" fill="#bac2de" font-size="8" font-weight="normal">J3</text>
+<text x="1093" y="276" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L6_P</text>
+<rect x="1216" y="250" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="261" fill="#bac2de" font-size="8" font-weight="normal">K3</text>
+<text x="1221" y="276" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="308" fill="#bac2de" font-size="13" font-weight="normal">4</text>
+<rect x="64" y="285" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="296" fill="#bac2de" font-size="8" font-weight="normal">A4</text>
+<text x="69" y="311" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L2_N</text>
+<rect x="192" y="285" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="296" fill="#bac2de" font-size="8" font-weight="normal">B4</text>
+<text x="197" y="311" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="285" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="296" fill="#bac2de" font-size="8" font-weight="normal">C4</text>
+<text x="325" y="311" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L3_N</text>
+<rect x="448" y="285" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="296" fill="#bac2de" font-size="8" font-weight="normal">D4</text>
+<text x="453" y="311" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="285" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="296" fill="#bac2de" font-size="8" font-weight="normal">E4</text>
+<text x="581" y="311" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="285" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="296" fill="#bac2de" font-size="8" font-weight="normal">F4</text>
+<text x="709" y="311" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="285" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="296" fill="#bac2de" font-size="8" font-weight="normal">G4</text>
+<text x="837" y="311" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="285" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="296" fill="#bac2de" font-size="8" font-weight="normal">H4</text>
+<text x="965" y="311" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L2_N</text>
+<rect x="1088" y="285" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="296" fill="#bac2de" font-size="8" font-weight="normal">J4</text>
+<text x="1093" y="311" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="285" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="296" fill="#bac2de" font-size="8" font-weight="normal">K4</text>
+<text x="1221" y="311" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L3_N</text>
+<text x="23" y="343" fill="#bac2de" font-size="13" font-weight="normal">5</text>
+<rect x="64" y="320" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="331" fill="#bac2de" font-size="8" font-weight="normal">A5</text>
+<text x="69" y="346" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L2_P</text>
+<rect x="192" y="320" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="331" fill="#bac2de" font-size="8" font-weight="normal">B5</text>
+<text x="197" y="346" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L1_N</text>
+<rect x="320" y="320" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="331" fill="#bac2de" font-size="8" font-weight="normal">C5</text>
+<text x="325" y="346" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L3_P</text>
+<rect x="448" y="320" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="331" fill="#bac2de" font-size="8" font-weight="normal">D5</text>
+<text x="453" y="346" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L0_N</text>
+<rect x="576" y="320" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="331" fill="#bac2de" font-size="8" font-weight="normal">E5</text>
+<text x="581" y="346" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="320" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="331" fill="#bac2de" font-size="8" font-weight="normal">F5</text>
+<text x="709" y="346" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="320" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="331" fill="#bac2de" font-size="8" font-weight="normal">G5</text>
+<text x="837" y="346" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L1_N</text>
+<rect x="960" y="320" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="331" fill="#bac2de" font-size="8" font-weight="normal">H5</text>
+<text x="965" y="346" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L2_P</text>
+<rect x="1088" y="320" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="331" fill="#bac2de" font-size="8" font-weight="normal">J5</text>
+<text x="1093" y="346" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L0_N</text>
+<rect x="1216" y="320" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="331" fill="#bac2de" font-size="8" font-weight="normal">K5</text>
+<text x="1221" y="346" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L3_P</text>
+<text x="23" y="378" fill="#bac2de" font-size="13" font-weight="normal">6</text>
+<rect x="64" y="355" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="366" fill="#bac2de" font-size="8" font-weight="normal">A6</text>
+<text x="69" y="381" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="355" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="366" fill="#bac2de" font-size="8" font-weight="normal">B6</text>
+<text x="197" y="381" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L1_P</text>
+<rect x="320" y="355" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="366" fill="#bac2de" font-size="8" font-weight="normal">C6</text>
+<text x="325" y="381" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="355" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="366" fill="#bac2de" font-size="8" font-weight="normal">D6</text>
+<text x="453" y="381" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_TX_L0_P</text>
+<rect x="576" y="355" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="366" fill="#bac2de" font-size="8" font-weight="normal">E6</text>
+<text x="581" y="381" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="355" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="366" fill="#bac2de" font-size="8" font-weight="normal">F6</text>
+<text x="709" y="381" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="355" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="366" fill="#bac2de" font-size="8" font-weight="normal">G6</text>
+<text x="837" y="381" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L1_P</text>
+<rect x="960" y="355" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="366" fill="#bac2de" font-size="8" font-weight="normal">H6</text>
+<text x="965" y="381" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="355" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="366" fill="#bac2de" font-size="8" font-weight="normal">J6</text>
+<text x="1093" y="381" fill="#cba6f7" font-size="10" font-weight="normal">NVHS3_RX_L0_P</text>
+<rect x="1216" y="355" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="366" fill="#bac2de" font-size="8" font-weight="normal">K6</text>
+<text x="1221" y="381" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="413" fill="#bac2de" font-size="13" font-weight="normal">7</text>
+<rect x="64" y="390" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="401" fill="#bac2de" font-size="8" font-weight="normal">A7</text>
+<text x="69" y="416" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L5_N</text>
+<rect x="192" y="390" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="401" fill="#bac2de" font-size="8" font-weight="normal">B7</text>
+<text x="197" y="416" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="390" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="401" fill="#bac2de" font-size="8" font-weight="normal">C7</text>
+<text x="325" y="416" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L6_N</text>
+<rect x="448" y="390" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="401" fill="#bac2de" font-size="8" font-weight="normal">D7</text>
+<text x="453" y="416" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="390" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="401" fill="#bac2de" font-size="8" font-weight="normal">E7</text>
+<text x="581" y="416" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="390" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="401" fill="#bac2de" font-size="8" font-weight="normal">F7</text>
+<text x="709" y="416" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="390" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="401" fill="#bac2de" font-size="8" font-weight="normal">G7</text>
+<text x="837" y="416" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="390" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="401" fill="#bac2de" font-size="8" font-weight="normal">H7</text>
+<text x="965" y="416" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L5_N</text>
+<rect x="1088" y="390" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="401" fill="#bac2de" font-size="8" font-weight="normal">J7</text>
+<text x="1093" y="416" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="390" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="401" fill="#bac2de" font-size="8" font-weight="normal">K7</text>
+<text x="1221" y="416" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L7_N</text>
+<text x="23" y="448" fill="#bac2de" font-size="13" font-weight="normal">8</text>
+<rect x="64" y="425" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="436" fill="#bac2de" font-size="8" font-weight="normal">A8</text>
+<text x="69" y="451" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L5_P</text>
+<rect x="192" y="425" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="436" fill="#bac2de" font-size="8" font-weight="normal">B8</text>
+<text x="197" y="451" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L4_N</text>
+<rect x="320" y="425" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="436" fill="#bac2de" font-size="8" font-weight="normal">C8</text>
+<text x="325" y="451" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L6_P</text>
+<rect x="448" y="425" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="436" fill="#bac2de" font-size="8" font-weight="normal">D8</text>
+<text x="453" y="451" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L7_N</text>
+<rect x="576" y="425" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="436" fill="#bac2de" font-size="8" font-weight="normal">E8</text>
+<text x="581" y="451" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="425" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="436" fill="#bac2de" font-size="8" font-weight="normal">F8</text>
+<text x="709" y="451" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="425" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="436" fill="#bac2de" font-size="8" font-weight="normal">G8</text>
+<text x="837" y="451" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L4_N</text>
+<rect x="960" y="425" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="436" fill="#bac2de" font-size="8" font-weight="normal">H8</text>
+<text x="965" y="451" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L5_P</text>
+<rect x="1088" y="425" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="436" fill="#bac2de" font-size="8" font-weight="normal">J8</text>
+<text x="1093" y="451" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L6_N</text>
+<rect x="1216" y="425" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="436" fill="#bac2de" font-size="8" font-weight="normal">K8</text>
+<text x="1221" y="451" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L7_P</text>
+<text x="23" y="483" fill="#bac2de" font-size="13" font-weight="normal">9</text>
+<rect x="64" y="460" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="471" fill="#bac2de" font-size="8" font-weight="normal">A9</text>
+<text x="69" y="486" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="460" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="471" fill="#bac2de" font-size="8" font-weight="normal">B9</text>
+<text x="197" y="486" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L4_P</text>
+<rect x="320" y="460" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="471" fill="#bac2de" font-size="8" font-weight="normal">C9</text>
+<text x="325" y="486" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="460" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="471" fill="#bac2de" font-size="8" font-weight="normal">D9</text>
+<text x="453" y="486" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L7_P</text>
+<rect x="576" y="460" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="471" fill="#bac2de" font-size="8" font-weight="normal">E9</text>
+<text x="581" y="486" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="460" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="471" fill="#bac2de" font-size="8" font-weight="normal">F9</text>
+<text x="709" y="486" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="460" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="471" fill="#bac2de" font-size="8" font-weight="normal">G9</text>
+<text x="837" y="486" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L4_P</text>
+<rect x="960" y="460" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="471" fill="#bac2de" font-size="8" font-weight="normal">H9</text>
+<text x="965" y="486" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="460" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="471" fill="#bac2de" font-size="8" font-weight="normal">J9</text>
+<text x="1093" y="486" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L6_P</text>
+<rect x="1216" y="460" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="471" fill="#bac2de" font-size="8" font-weight="normal">K9</text>
+<text x="1221" y="486" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="518" fill="#bac2de" font-size="13" font-weight="normal">10</text>
+<rect x="64" y="495" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="506" fill="#bac2de" font-size="8" font-weight="normal">A10</text>
+<text x="69" y="521" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L2_N</text>
+<rect x="192" y="495" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="506" fill="#bac2de" font-size="8" font-weight="normal">B10</text>
+<text x="197" y="521" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="495" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="506" fill="#bac2de" font-size="8" font-weight="normal">C10</text>
+<text x="325" y="521" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L3_N</text>
+<rect x="448" y="495" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="506" fill="#bac2de" font-size="8" font-weight="normal">D10</text>
+<text x="453" y="521" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="495" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="506" fill="#bac2de" font-size="8" font-weight="normal">E10</text>
+<text x="581" y="521" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="495" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="506" fill="#bac2de" font-size="8" font-weight="normal">F10</text>
+<text x="709" y="521" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="495" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="506" fill="#bac2de" font-size="8" font-weight="normal">G10</text>
+<text x="837" y="521" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="495" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="506" fill="#bac2de" font-size="8" font-weight="normal">H10</text>
+<text x="965" y="521" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L2_N</text>
+<rect x="1088" y="495" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="506" fill="#bac2de" font-size="8" font-weight="normal">J10</text>
+<text x="1093" y="521" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="495" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="506" fill="#bac2de" font-size="8" font-weight="normal">K10</text>
+<text x="1221" y="521" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L3_N</text>
+<text x="23" y="553" fill="#bac2de" font-size="13" font-weight="normal">11</text>
+<rect x="64" y="530" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="541" fill="#bac2de" font-size="8" font-weight="normal">A11</text>
+<text x="69" y="556" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L2_P</text>
+<rect x="192" y="530" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="541" fill="#bac2de" font-size="8" font-weight="normal">B11</text>
+<text x="197" y="556" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L1_N</text>
+<rect x="320" y="530" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="541" fill="#bac2de" font-size="8" font-weight="normal">C11</text>
+<text x="325" y="556" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L3_P</text>
+<rect x="448" y="530" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="541" fill="#bac2de" font-size="8" font-weight="normal">D11</text>
+<text x="453" y="556" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L0_N</text>
+<rect x="576" y="530" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="541" fill="#bac2de" font-size="8" font-weight="normal">E11</text>
+<text x="581" y="556" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="530" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="541" fill="#bac2de" font-size="8" font-weight="normal">F11</text>
+<text x="709" y="556" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="530" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="541" fill="#bac2de" font-size="8" font-weight="normal">G11</text>
+<text x="837" y="556" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L1_N</text>
+<rect x="960" y="530" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="541" fill="#bac2de" font-size="8" font-weight="normal">H11</text>
+<text x="965" y="556" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L2_P</text>
+<rect x="1088" y="530" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="541" fill="#bac2de" font-size="8" font-weight="normal">J11</text>
+<text x="1093" y="556" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L0_N</text>
+<rect x="1216" y="530" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="541" fill="#bac2de" font-size="8" font-weight="normal">K11</text>
+<text x="1221" y="556" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L3_P</text>
+<text x="23" y="588" fill="#bac2de" font-size="13" font-weight="normal">12</text>
+<rect x="64" y="565" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="576" fill="#bac2de" font-size="8" font-weight="normal">A12</text>
+<text x="69" y="591" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="565" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="576" fill="#bac2de" font-size="8" font-weight="normal">B12</text>
+<text x="197" y="591" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L1_P</text>
+<rect x="320" y="565" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="576" fill="#bac2de" font-size="8" font-weight="normal">C12</text>
+<text x="325" y="591" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="565" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="576" fill="#bac2de" font-size="8" font-weight="normal">D12</text>
+<text x="453" y="591" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_TX_L0_P</text>
+<rect x="576" y="565" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="576" fill="#bac2de" font-size="8" font-weight="normal">E12</text>
+<text x="581" y="591" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="565" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="576" fill="#bac2de" font-size="8" font-weight="normal">F12</text>
+<text x="709" y="591" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="565" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="576" fill="#bac2de" font-size="8" font-weight="normal">G12</text>
+<text x="837" y="591" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L1_P</text>
+<rect x="960" y="565" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="576" fill="#bac2de" font-size="8" font-weight="normal">H12</text>
+<text x="965" y="591" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="565" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="576" fill="#bac2de" font-size="8" font-weight="normal">J12</text>
+<text x="1093" y="591" fill="#cba6f7" font-size="10" font-weight="normal">NVHS2_RX_L0_P</text>
+<rect x="1216" y="565" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="576" fill="#bac2de" font-size="8" font-weight="normal">K12</text>
+<text x="1221" y="591" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="623" fill="#bac2de" font-size="13" font-weight="normal">13</text>
+<rect x="64" y="600" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="611" fill="#bac2de" font-size="8" font-weight="normal">A13</text>
+<text x="69" y="626" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="600" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="611" fill="#bac2de" font-size="8" font-weight="normal">B13</text>
+<text x="197" y="626" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="600" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="611" fill="#bac2de" font-size="8" font-weight="normal">C13</text>
+<text x="325" y="626" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="600" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="611" fill="#bac2de" font-size="8" font-weight="normal">D13</text>
+<text x="453" y="626" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="600" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="611" fill="#bac2de" font-size="8" font-weight="normal">E13</text>
+<text x="581" y="626" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="600" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="611" fill="#bac2de" font-size="8" font-weight="normal">F13</text>
+<text x="709" y="626" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="600" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="611" fill="#bac2de" font-size="8" font-weight="normal">G13</text>
+<text x="837" y="626" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="600" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="611" fill="#bac2de" font-size="8" font-weight="normal">H13</text>
+<text x="965" y="626" fill="#94e2d5" font-size="8.8" font-weight="normal">PRSNT1_A (candidate)</text>
+<rect x="1088" y="600" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="611" fill="#bac2de" font-size="8" font-weight="normal">J13</text>
+<text x="1093" y="626" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="600" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="611" fill="#bac2de" font-size="8" font-weight="normal">K13</text>
+<text x="1221" y="626" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="658" fill="#bac2de" font-size="13" font-weight="normal">14</text>
+<rect x="64" y="635" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="646" fill="#bac2de" font-size="8" font-weight="normal">A14</text>
+<text x="69" y="661" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="635" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="646" fill="#bac2de" font-size="8" font-weight="normal">B14</text>
+<text x="197" y="661" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L5_N</text>
+<rect x="320" y="635" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="646" fill="#bac2de" font-size="8" font-weight="normal">C14</text>
+<text x="325" y="661" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="635" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="646" fill="#bac2de" font-size="8" font-weight="normal">D14</text>
+<text x="453" y="661" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L7_N</text>
+<rect x="576" y="635" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="646" fill="#bac2de" font-size="8" font-weight="normal">E14</text>
+<text x="581" y="661" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="635" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="646" fill="#bac2de" font-size="8" font-weight="normal">F14</text>
+<text x="709" y="661" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="635" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="646" fill="#bac2de" font-size="8" font-weight="normal">G14</text>
+<text x="837" y="661" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L5_N</text>
+<rect x="960" y="635" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="646" fill="#bac2de" font-size="8" font-weight="normal">H14</text>
+<text x="965" y="661" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="635" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="646" fill="#bac2de" font-size="8" font-weight="normal">J14</text>
+<text x="1093" y="661" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L6_N</text>
+<rect x="1216" y="635" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="646" fill="#bac2de" font-size="8" font-weight="normal">K14</text>
+<text x="1221" y="661" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="693" fill="#bac2de" font-size="13" font-weight="normal">15</text>
+<rect x="64" y="670" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="681" fill="#bac2de" font-size="8" font-weight="normal">A15</text>
+<text x="69" y="696" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L4_N</text>
+<rect x="192" y="670" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="681" fill="#bac2de" font-size="8" font-weight="normal">B15</text>
+<text x="197" y="696" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L5_P</text>
+<rect x="320" y="670" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="681" fill="#bac2de" font-size="8" font-weight="normal">C15</text>
+<text x="325" y="696" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L6_N</text>
+<rect x="448" y="670" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="681" fill="#bac2de" font-size="8" font-weight="normal">D15</text>
+<text x="453" y="696" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L7_P</text>
+<rect x="576" y="670" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="681" fill="#bac2de" font-size="8" font-weight="normal">E15</text>
+<text x="581" y="696" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="670" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="681" fill="#bac2de" font-size="8" font-weight="normal">F15</text>
+<text x="709" y="696" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="670" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="681" fill="#bac2de" font-size="8" font-weight="normal">G15</text>
+<text x="837" y="696" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L5_P</text>
+<rect x="960" y="670" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="681" fill="#bac2de" font-size="8" font-weight="normal">H15</text>
+<text x="965" y="696" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L4_N</text>
+<rect x="1088" y="670" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="681" fill="#bac2de" font-size="8" font-weight="normal">J15</text>
+<text x="1093" y="696" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L6_P</text>
+<rect x="1216" y="670" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="681" fill="#bac2de" font-size="8" font-weight="normal">K15</text>
+<text x="1221" y="696" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L7_N</text>
+<text x="23" y="728" fill="#bac2de" font-size="13" font-weight="normal">16</text>
+<rect x="64" y="705" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="716" fill="#bac2de" font-size="8" font-weight="normal">A16</text>
+<text x="69" y="731" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L4_P</text>
+<rect x="192" y="705" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="716" fill="#bac2de" font-size="8" font-weight="normal">B16</text>
+<text x="197" y="731" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="705" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="716" fill="#bac2de" font-size="8" font-weight="normal">C16</text>
+<text x="325" y="731" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L6_P</text>
+<rect x="448" y="705" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="716" fill="#bac2de" font-size="8" font-weight="normal">D16</text>
+<text x="453" y="731" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="705" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="716" fill="#bac2de" font-size="8" font-weight="normal">E16</text>
+<text x="581" y="731" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="705" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="716" fill="#bac2de" font-size="8" font-weight="normal">F16</text>
+<text x="709" y="731" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="705" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="716" fill="#bac2de" font-size="8" font-weight="normal">G16</text>
+<text x="837" y="731" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="705" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="716" fill="#bac2de" font-size="8" font-weight="normal">H16</text>
+<text x="965" y="731" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L4_P</text>
+<rect x="1088" y="705" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="716" fill="#bac2de" font-size="8" font-weight="normal">J16</text>
+<text x="1093" y="731" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="705" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="716" fill="#bac2de" font-size="8" font-weight="normal">K16</text>
+<text x="1221" y="731" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L7_P</text>
+<text x="23" y="763" fill="#bac2de" font-size="13" font-weight="normal">17</text>
+<rect x="64" y="740" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="751" fill="#bac2de" font-size="8" font-weight="normal">A17</text>
+<text x="69" y="766" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="740" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="751" fill="#bac2de" font-size="8" font-weight="normal">B17</text>
+<text x="197" y="766" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L2_N</text>
+<rect x="320" y="740" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="751" fill="#bac2de" font-size="8" font-weight="normal">C17</text>
+<text x="325" y="766" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="740" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="751" fill="#bac2de" font-size="8" font-weight="normal">D17</text>
+<text x="453" y="766" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L3_N</text>
+<rect x="576" y="740" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="751" fill="#bac2de" font-size="8" font-weight="normal">E17</text>
+<text x="581" y="766" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="740" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="751" fill="#bac2de" font-size="8" font-weight="normal">F17</text>
+<text x="709" y="766" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="740" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="751" fill="#bac2de" font-size="8" font-weight="normal">G17</text>
+<text x="837" y="766" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L2_N</text>
+<rect x="960" y="740" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="751" fill="#bac2de" font-size="8" font-weight="normal">H17</text>
+<text x="965" y="766" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="740" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="751" fill="#bac2de" font-size="8" font-weight="normal">J17</text>
+<text x="1093" y="766" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L3_N</text>
+<rect x="1216" y="740" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="751" fill="#bac2de" font-size="8" font-weight="normal">K17</text>
+<text x="1221" y="766" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="798" fill="#bac2de" font-size="13" font-weight="normal">18</text>
+<rect x="64" y="775" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="786" fill="#bac2de" font-size="8" font-weight="normal">A18</text>
+<text x="69" y="801" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L1_N</text>
+<rect x="192" y="775" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="786" fill="#bac2de" font-size="8" font-weight="normal">B18</text>
+<text x="197" y="801" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L2_P</text>
+<rect x="320" y="775" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="786" fill="#bac2de" font-size="8" font-weight="normal">C18</text>
+<text x="325" y="801" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L0_N</text>
+<rect x="448" y="775" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="786" fill="#bac2de" font-size="8" font-weight="normal">D18</text>
+<text x="453" y="801" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L3_P</text>
+<rect x="576" y="775" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="786" fill="#bac2de" font-size="8" font-weight="normal">E18</text>
+<text x="581" y="801" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="775" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="786" fill="#bac2de" font-size="8" font-weight="normal">F18</text>
+<text x="709" y="801" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="775" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="786" fill="#bac2de" font-size="8" font-weight="normal">G18</text>
+<text x="837" y="801" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L2_P</text>
+<rect x="960" y="775" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="786" fill="#bac2de" font-size="8" font-weight="normal">H18</text>
+<text x="965" y="801" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L1_N</text>
+<rect x="1088" y="775" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="786" fill="#bac2de" font-size="8" font-weight="normal">J18</text>
+<text x="1093" y="801" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L3_P</text>
+<rect x="1216" y="775" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="786" fill="#bac2de" font-size="8" font-weight="normal">K18</text>
+<text x="1221" y="801" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L0_N</text>
+<text x="23" y="833" fill="#bac2de" font-size="13" font-weight="normal">19</text>
+<rect x="64" y="810" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="821" fill="#bac2de" font-size="8" font-weight="normal">A19</text>
+<text x="69" y="836" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L1_P</text>
+<rect x="192" y="810" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="821" fill="#bac2de" font-size="8" font-weight="normal">B19</text>
+<text x="197" y="836" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="810" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="821" fill="#bac2de" font-size="8" font-weight="normal">C19</text>
+<text x="325" y="836" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_TX_L0_P</text>
+<rect x="448" y="810" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="821" fill="#bac2de" font-size="8" font-weight="normal">D19</text>
+<text x="453" y="836" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="810" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="821" fill="#bac2de" font-size="8" font-weight="normal">E19</text>
+<text x="581" y="836" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="810" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="821" fill="#bac2de" font-size="8" font-weight="normal">F19</text>
+<text x="709" y="836" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="810" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="821" fill="#bac2de" font-size="8" font-weight="normal">G19</text>
+<text x="837" y="836" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="810" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="821" fill="#bac2de" font-size="8" font-weight="normal">H19</text>
+<text x="965" y="836" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L1_P</text>
+<rect x="1088" y="810" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="821" fill="#bac2de" font-size="8" font-weight="normal">J19</text>
+<text x="1093" y="836" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="810" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="821" fill="#bac2de" font-size="8" font-weight="normal">K19</text>
+<text x="1221" y="836" fill="#cba6f7" font-size="10" font-weight="normal">NVHS5_RX_L0_P</text>
+<text x="23" y="868" fill="#bac2de" font-size="13" font-weight="normal">20</text>
+<rect x="64" y="845" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="856" fill="#bac2de" font-size="8" font-weight="normal">A20</text>
+<text x="69" y="871" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="845" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="856" fill="#bac2de" font-size="8" font-weight="normal">B20</text>
+<text x="197" y="871" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="845" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="856" fill="#bac2de" font-size="8" font-weight="normal">C20</text>
+<text x="325" y="871" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="845" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="856" fill="#bac2de" font-size="8" font-weight="normal">D20</text>
+<text x="453" y="871" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="845" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="856" fill="#bac2de" font-size="8" font-weight="normal">E20</text>
+<text x="581" y="871" fill="#f9e2af" font-size="10" font-weight="normal">NVHS_REFCLK_P</text>
+<rect x="704" y="845" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="856" fill="#bac2de" font-size="8" font-weight="normal">F20</text>
+<text x="709" y="871" fill="#f9e2af" font-size="10" font-weight="normal">NVHS_REFCLK_N</text>
+<rect x="832" y="845" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="856" fill="#bac2de" font-size="8" font-weight="normal">G20</text>
+<text x="837" y="871" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="845" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="856" fill="#bac2de" font-size="8" font-weight="normal">H20</text>
+<text x="965" y="871" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="845" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="856" fill="#bac2de" font-size="8" font-weight="normal">J20</text>
+<text x="1093" y="871" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="845" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="856" fill="#bac2de" font-size="8" font-weight="normal">K20</text>
+<text x="1221" y="871" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="903" fill="#bac2de" font-size="13" font-weight="normal">21</text>
+<rect x="64" y="880" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="891" fill="#bac2de" font-size="8" font-weight="normal">A21</text>
+<text x="69" y="906" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L5_N</text>
+<rect x="192" y="880" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="891" fill="#bac2de" font-size="8" font-weight="normal">B21</text>
+<text x="197" y="906" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="880" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="891" fill="#bac2de" font-size="8" font-weight="normal">C21</text>
+<text x="325" y="906" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L6_N</text>
+<rect x="448" y="880" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="891" fill="#bac2de" font-size="8" font-weight="normal">D21</text>
+<text x="453" y="906" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="880" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="891" fill="#bac2de" font-size="8" font-weight="normal">E21</text>
+<text x="581" y="906" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="880" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="891" fill="#bac2de" font-size="8" font-weight="normal">F21</text>
+<text x="709" y="906" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="880" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="891" fill="#bac2de" font-size="8" font-weight="normal">G21</text>
+<text x="837" y="906" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="880" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="891" fill="#bac2de" font-size="8" font-weight="normal">H21</text>
+<text x="965" y="906" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L5_N</text>
+<rect x="1088" y="880" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="891" fill="#bac2de" font-size="8" font-weight="normal">J21</text>
+<text x="1093" y="906" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="880" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="891" fill="#bac2de" font-size="8" font-weight="normal">K21</text>
+<text x="1221" y="906" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L7_N</text>
+<text x="23" y="938" fill="#bac2de" font-size="13" font-weight="normal">22</text>
+<rect x="64" y="915" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="926" fill="#bac2de" font-size="8" font-weight="normal">A22</text>
+<text x="69" y="941" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L5_P</text>
+<rect x="192" y="915" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="926" fill="#bac2de" font-size="8" font-weight="normal">B22</text>
+<text x="197" y="941" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L4_N</text>
+<rect x="320" y="915" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="926" fill="#bac2de" font-size="8" font-weight="normal">C22</text>
+<text x="325" y="941" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L6_P</text>
+<rect x="448" y="915" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="926" fill="#bac2de" font-size="8" font-weight="normal">D22</text>
+<text x="453" y="941" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L7_N</text>
+<rect x="576" y="915" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="926" fill="#bac2de" font-size="8" font-weight="normal">E22</text>
+<text x="581" y="941" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="915" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="926" fill="#bac2de" font-size="8" font-weight="normal">F22</text>
+<text x="709" y="941" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="915" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="926" fill="#bac2de" font-size="8" font-weight="normal">G22</text>
+<text x="837" y="941" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L4_N</text>
+<rect x="960" y="915" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="926" fill="#bac2de" font-size="8" font-weight="normal">H22</text>
+<text x="965" y="941" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L5_P</text>
+<rect x="1088" y="915" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="926" fill="#bac2de" font-size="8" font-weight="normal">J22</text>
+<text x="1093" y="941" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L6_N</text>
+<rect x="1216" y="915" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="926" fill="#bac2de" font-size="8" font-weight="normal">K22</text>
+<text x="1221" y="941" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L7_P</text>
+<text x="23" y="973" fill="#bac2de" font-size="13" font-weight="normal">23</text>
+<rect x="64" y="950" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="961" fill="#bac2de" font-size="8" font-weight="normal">A23</text>
+<text x="69" y="976" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="950" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="961" fill="#bac2de" font-size="8" font-weight="normal">B23</text>
+<text x="197" y="976" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L4_P</text>
+<rect x="320" y="950" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="961" fill="#bac2de" font-size="8" font-weight="normal">C23</text>
+<text x="325" y="976" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="950" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="961" fill="#bac2de" font-size="8" font-weight="normal">D23</text>
+<text x="453" y="976" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L7_P</text>
+<rect x="576" y="950" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="961" fill="#bac2de" font-size="8" font-weight="normal">E23</text>
+<text x="581" y="976" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="950" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="961" fill="#bac2de" font-size="8" font-weight="normal">F23</text>
+<text x="709" y="976" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="950" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="961" fill="#bac2de" font-size="8" font-weight="normal">G23</text>
+<text x="837" y="976" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L4_P</text>
+<rect x="960" y="950" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="961" fill="#bac2de" font-size="8" font-weight="normal">H23</text>
+<text x="965" y="976" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="950" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="961" fill="#bac2de" font-size="8" font-weight="normal">J23</text>
+<text x="1093" y="976" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L6_P</text>
+<rect x="1216" y="950" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="961" fill="#bac2de" font-size="8" font-weight="normal">K23</text>
+<text x="1221" y="976" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="1008" fill="#bac2de" font-size="13" font-weight="normal">24</text>
+<rect x="64" y="985" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="996" fill="#bac2de" font-size="8" font-weight="normal">A24</text>
+<text x="69" y="1011" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L2_N</text>
+<rect x="192" y="985" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="996" fill="#bac2de" font-size="8" font-weight="normal">B24</text>
+<text x="197" y="1011" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="985" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="996" fill="#bac2de" font-size="8" font-weight="normal">C24</text>
+<text x="325" y="1011" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L3_N</text>
+<rect x="448" y="985" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="996" fill="#bac2de" font-size="8" font-weight="normal">D24</text>
+<text x="453" y="1011" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="985" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="996" fill="#bac2de" font-size="8" font-weight="normal">E24</text>
+<text x="581" y="1011" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="985" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="996" fill="#bac2de" font-size="8" font-weight="normal">F24</text>
+<text x="709" y="1011" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="985" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="996" fill="#bac2de" font-size="8" font-weight="normal">G24</text>
+<text x="837" y="1011" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="985" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="996" fill="#bac2de" font-size="8" font-weight="normal">H24</text>
+<text x="965" y="1011" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L2_N</text>
+<rect x="1088" y="985" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="996" fill="#bac2de" font-size="8" font-weight="normal">J24</text>
+<text x="1093" y="1011" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="985" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="996" fill="#bac2de" font-size="8" font-weight="normal">K24</text>
+<text x="1221" y="1011" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L3_N</text>
+<text x="23" y="1043" fill="#bac2de" font-size="13" font-weight="normal">25</text>
+<rect x="64" y="1020" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="1031" fill="#bac2de" font-size="8" font-weight="normal">A25</text>
+<text x="69" y="1046" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L2_P</text>
+<rect x="192" y="1020" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="1031" fill="#bac2de" font-size="8" font-weight="normal">B25</text>
+<text x="197" y="1046" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L1_N</text>
+<rect x="320" y="1020" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="1031" fill="#bac2de" font-size="8" font-weight="normal">C25</text>
+<text x="325" y="1046" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L3_P</text>
+<rect x="448" y="1020" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="1031" fill="#bac2de" font-size="8" font-weight="normal">D25</text>
+<text x="453" y="1046" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L0_N</text>
+<rect x="576" y="1020" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="1031" fill="#bac2de" font-size="8" font-weight="normal">E25</text>
+<text x="581" y="1046" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1020" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="1031" fill="#bac2de" font-size="8" font-weight="normal">F25</text>
+<text x="709" y="1046" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1020" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="1031" fill="#bac2de" font-size="8" font-weight="normal">G25</text>
+<text x="837" y="1046" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L1_N</text>
+<rect x="960" y="1020" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="1031" fill="#bac2de" font-size="8" font-weight="normal">H25</text>
+<text x="965" y="1046" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L2_P</text>
+<rect x="1088" y="1020" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="1031" fill="#bac2de" font-size="8" font-weight="normal">J25</text>
+<text x="1093" y="1046" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L0_N</text>
+<rect x="1216" y="1020" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="1031" fill="#bac2de" font-size="8" font-weight="normal">K25</text>
+<text x="1221" y="1046" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L3_P</text>
+<text x="23" y="1078" fill="#bac2de" font-size="13" font-weight="normal">26</text>
+<rect x="64" y="1055" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="1066" fill="#bac2de" font-size="8" font-weight="normal">A26</text>
+<text x="69" y="1081" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="1055" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="1066" fill="#bac2de" font-size="8" font-weight="normal">B26</text>
+<text x="197" y="1081" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L1_P</text>
+<rect x="320" y="1055" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="1066" fill="#bac2de" font-size="8" font-weight="normal">C26</text>
+<text x="325" y="1081" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="1055" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="1066" fill="#bac2de" font-size="8" font-weight="normal">D26</text>
+<text x="453" y="1081" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_TX_L0_P</text>
+<rect x="576" y="1055" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="1066" fill="#bac2de" font-size="8" font-weight="normal">E26</text>
+<text x="581" y="1081" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1055" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="1066" fill="#bac2de" font-size="8" font-weight="normal">F26</text>
+<text x="709" y="1081" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1055" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="1066" fill="#bac2de" font-size="8" font-weight="normal">G26</text>
+<text x="837" y="1081" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L1_P</text>
+<rect x="960" y="1055" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="1066" fill="#bac2de" font-size="8" font-weight="normal">H26</text>
+<text x="965" y="1081" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="1055" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="1066" fill="#bac2de" font-size="8" font-weight="normal">J26</text>
+<text x="1093" y="1081" fill="#cba6f7" font-size="10" font-weight="normal">NVHS4_RX_L0_P</text>
+<rect x="1216" y="1055" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="1066" fill="#bac2de" font-size="8" font-weight="normal">K26</text>
+<text x="1221" y="1081" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="1113" fill="#bac2de" font-size="13" font-weight="normal">27</text>
+<rect x="64" y="1090" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="1101" fill="#bac2de" font-size="8" font-weight="normal">A27</text>
+<text x="69" y="1116" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="1090" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="1101" fill="#bac2de" font-size="8" font-weight="normal">B27</text>
+<text x="197" y="1116" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="1090" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="1101" fill="#bac2de" font-size="8" font-weight="normal">C27</text>
+<text x="325" y="1116" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="1090" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="1101" fill="#bac2de" font-size="8" font-weight="normal">D27</text>
+<text x="453" y="1116" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="1090" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="1101" fill="#bac2de" font-size="8" font-weight="normal">E27</text>
+<text x="581" y="1116" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1090" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="1101" fill="#bac2de" font-size="8" font-weight="normal">F27</text>
+<text x="709" y="1116" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1090" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="1101" fill="#bac2de" font-size="8" font-weight="normal">G27</text>
+<text x="837" y="1116" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="1090" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="1101" fill="#bac2de" font-size="8" font-weight="normal">H27</text>
+<text x="965" y="1116" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="1090" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="1101" fill="#bac2de" font-size="8" font-weight="normal">J27</text>
+<text x="1093" y="1116" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="1090" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="1101" fill="#bac2de" font-size="8" font-weight="normal">K27</text>
+<text x="1221" y="1116" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="1148" fill="#bac2de" font-size="13" font-weight="normal">28</text>
+<rect x="64" y="1125" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="1136" fill="#bac2de" font-size="8" font-weight="normal">A28</text>
+<text x="69" y="1151" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="1125" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="1136" fill="#bac2de" font-size="8" font-weight="normal">B28</text>
+<text x="197" y="1151" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L5_N</text>
+<rect x="320" y="1125" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="1136" fill="#bac2de" font-size="8" font-weight="normal">C28</text>
+<text x="325" y="1151" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="1125" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="1136" fill="#bac2de" font-size="8" font-weight="normal">D28</text>
+<text x="453" y="1151" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L7_N</text>
+<rect x="576" y="1125" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="1136" fill="#bac2de" font-size="8" font-weight="normal">E28</text>
+<text x="581" y="1151" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1125" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="1136" fill="#bac2de" font-size="8" font-weight="normal">F28</text>
+<text x="709" y="1151" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1125" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="1136" fill="#bac2de" font-size="8" font-weight="normal">G28</text>
+<text x="837" y="1151" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L5_N</text>
+<rect x="960" y="1125" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="1136" fill="#bac2de" font-size="8" font-weight="normal">H28</text>
+<text x="965" y="1151" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="1125" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="1136" fill="#bac2de" font-size="8" font-weight="normal">J28</text>
+<text x="1093" y="1151" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L6_N</text>
+<rect x="1216" y="1125" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="1136" fill="#bac2de" font-size="8" font-weight="normal">K28</text>
+<text x="1221" y="1151" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="1183" fill="#bac2de" font-size="13" font-weight="normal">29</text>
+<rect x="64" y="1160" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="1171" fill="#bac2de" font-size="8" font-weight="normal">A29</text>
+<text x="69" y="1186" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L4_N</text>
+<rect x="192" y="1160" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="1171" fill="#bac2de" font-size="8" font-weight="normal">B29</text>
+<text x="197" y="1186" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L5_P</text>
+<rect x="320" y="1160" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="1171" fill="#bac2de" font-size="8" font-weight="normal">C29</text>
+<text x="325" y="1186" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L6_N</text>
+<rect x="448" y="1160" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="1171" fill="#bac2de" font-size="8" font-weight="normal">D29</text>
+<text x="453" y="1186" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L7_P</text>
+<rect x="576" y="1160" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="1171" fill="#bac2de" font-size="8" font-weight="normal">E29</text>
+<text x="581" y="1186" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1160" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="1171" fill="#bac2de" font-size="8" font-weight="normal">F29</text>
+<text x="709" y="1186" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1160" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="1171" fill="#bac2de" font-size="8" font-weight="normal">G29</text>
+<text x="837" y="1186" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L5_P</text>
+<rect x="960" y="1160" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="1171" fill="#bac2de" font-size="8" font-weight="normal">H29</text>
+<text x="965" y="1186" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L4_N</text>
+<rect x="1088" y="1160" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="1171" fill="#bac2de" font-size="8" font-weight="normal">J29</text>
+<text x="1093" y="1186" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L6_P</text>
+<rect x="1216" y="1160" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="1171" fill="#bac2de" font-size="8" font-weight="normal">K29</text>
+<text x="1221" y="1186" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L7_N</text>
+<text x="23" y="1218" fill="#bac2de" font-size="13" font-weight="normal">30</text>
+<rect x="64" y="1195" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="1206" fill="#bac2de" font-size="8" font-weight="normal">A30</text>
+<text x="69" y="1221" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L4_P</text>
+<rect x="192" y="1195" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="1206" fill="#bac2de" font-size="8" font-weight="normal">B30</text>
+<text x="197" y="1221" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="1195" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="1206" fill="#bac2de" font-size="8" font-weight="normal">C30</text>
+<text x="325" y="1221" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L6_P</text>
+<rect x="448" y="1195" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="1206" fill="#bac2de" font-size="8" font-weight="normal">D30</text>
+<text x="453" y="1221" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="1195" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="1206" fill="#bac2de" font-size="8" font-weight="normal">E30</text>
+<text x="581" y="1221" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1195" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="1206" fill="#bac2de" font-size="8" font-weight="normal">F30</text>
+<text x="709" y="1221" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1195" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="1206" fill="#bac2de" font-size="8" font-weight="normal">G30</text>
+<text x="837" y="1221" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="1195" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="1206" fill="#bac2de" font-size="8" font-weight="normal">H30</text>
+<text x="965" y="1221" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L4_P</text>
+<rect x="1088" y="1195" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="1206" fill="#bac2de" font-size="8" font-weight="normal">J30</text>
+<text x="1093" y="1221" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="1195" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="1206" fill="#bac2de" font-size="8" font-weight="normal">K30</text>
+<text x="1221" y="1221" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L7_P</text>
+<text x="23" y="1253" fill="#bac2de" font-size="13" font-weight="normal">31</text>
+<rect x="64" y="1230" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="1241" fill="#bac2de" font-size="8" font-weight="normal">A31</text>
+<text x="69" y="1256" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="1230" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="1241" fill="#bac2de" font-size="8" font-weight="normal">B31</text>
+<text x="197" y="1256" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L2_N</text>
+<rect x="320" y="1230" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="1241" fill="#bac2de" font-size="8" font-weight="normal">C31</text>
+<text x="325" y="1256" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="1230" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="1241" fill="#bac2de" font-size="8" font-weight="normal">D31</text>
+<text x="453" y="1256" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L3_N</text>
+<rect x="576" y="1230" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="1241" fill="#bac2de" font-size="8" font-weight="normal">E31</text>
+<text x="581" y="1256" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1230" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="1241" fill="#bac2de" font-size="8" font-weight="normal">F31</text>
+<text x="709" y="1256" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1230" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="1241" fill="#bac2de" font-size="8" font-weight="normal">G31</text>
+<text x="837" y="1256" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L2_N</text>
+<rect x="960" y="1230" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="1241" fill="#bac2de" font-size="8" font-weight="normal">H31</text>
+<text x="965" y="1256" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="1230" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="1241" fill="#bac2de" font-size="8" font-weight="normal">J31</text>
+<text x="1093" y="1256" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L3_N</text>
+<rect x="1216" y="1230" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="1241" fill="#bac2de" font-size="8" font-weight="normal">K31</text>
+<text x="1221" y="1256" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="1288" fill="#bac2de" font-size="13" font-weight="normal">32</text>
+<rect x="64" y="1265" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="1276" fill="#bac2de" font-size="8" font-weight="normal">A32</text>
+<text x="69" y="1291" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L1_N</text>
+<rect x="192" y="1265" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="1276" fill="#bac2de" font-size="8" font-weight="normal">B32</text>
+<text x="197" y="1291" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L2_P</text>
+<rect x="320" y="1265" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="1276" fill="#bac2de" font-size="8" font-weight="normal">C32</text>
+<text x="325" y="1291" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L0_N</text>
+<rect x="448" y="1265" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="1276" fill="#bac2de" font-size="8" font-weight="normal">D32</text>
+<text x="453" y="1291" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L3_P</text>
+<rect x="576" y="1265" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="1276" fill="#bac2de" font-size="8" font-weight="normal">E32</text>
+<text x="581" y="1291" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1265" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="1276" fill="#bac2de" font-size="8" font-weight="normal">F32</text>
+<text x="709" y="1291" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1265" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="1276" fill="#bac2de" font-size="8" font-weight="normal">G32</text>
+<text x="837" y="1291" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L2_P</text>
+<rect x="960" y="1265" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="1276" fill="#bac2de" font-size="8" font-weight="normal">H32</text>
+<text x="965" y="1291" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L1_N</text>
+<rect x="1088" y="1265" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="1276" fill="#bac2de" font-size="8" font-weight="normal">J32</text>
+<text x="1093" y="1291" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L3_P</text>
+<rect x="1216" y="1265" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="1276" fill="#bac2de" font-size="8" font-weight="normal">K32</text>
+<text x="1221" y="1291" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L0_N</text>
+<text x="23" y="1323" fill="#bac2de" font-size="13" font-weight="normal">33</text>
+<rect x="64" y="1300" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="1311" fill="#bac2de" font-size="8" font-weight="normal">A33</text>
+<text x="69" y="1326" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L1_P</text>
+<rect x="192" y="1300" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="1311" fill="#bac2de" font-size="8" font-weight="normal">B33</text>
+<text x="197" y="1326" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="1300" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="1311" fill="#bac2de" font-size="8" font-weight="normal">C33</text>
+<text x="325" y="1326" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_TX_L0_P</text>
+<rect x="448" y="1300" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="1311" fill="#bac2de" font-size="8" font-weight="normal">D33</text>
+<text x="453" y="1326" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="1300" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="1311" fill="#bac2de" font-size="8" font-weight="normal">E33</text>
+<text x="581" y="1326" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1300" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="1311" fill="#bac2de" font-size="8" font-weight="normal">F33</text>
+<text x="709" y="1326" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1300" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="1311" fill="#bac2de" font-size="8" font-weight="normal">G33</text>
+<text x="837" y="1326" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="1300" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="1311" fill="#bac2de" font-size="8" font-weight="normal">H33</text>
+<text x="965" y="1326" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L1_P</text>
+<rect x="1088" y="1300" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="1311" fill="#bac2de" font-size="8" font-weight="normal">J33</text>
+<text x="1093" y="1326" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="1300" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="1311" fill="#bac2de" font-size="8" font-weight="normal">K33</text>
+<text x="1221" y="1326" fill="#cba6f7" font-size="10" font-weight="normal">NVHS1_RX_L0_P</text>
+<text x="23" y="1358" fill="#bac2de" font-size="13" font-weight="normal">34</text>
+<rect x="64" y="1335" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="1346" fill="#bac2de" font-size="8" font-weight="normal">A34</text>
+<text x="69" y="1361" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="1335" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="1346" fill="#bac2de" font-size="8" font-weight="normal">B34</text>
+<text x="197" y="1361" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="1335" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="1346" fill="#bac2de" font-size="8" font-weight="normal">C34</text>
+<text x="325" y="1361" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="1335" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="1346" fill="#bac2de" font-size="8" font-weight="normal">D34</text>
+<text x="453" y="1361" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="1335" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="1346" fill="#bac2de" font-size="8" font-weight="normal">E34</text>
+<text x="581" y="1361" fill="#f9e2af" font-size="8.8" font-weight="normal">SMB_CLK (candidate)</text>
+<rect x="704" y="1335" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="1346" fill="#bac2de" font-size="8" font-weight="normal">F34</text>
+<text x="709" y="1361" fill="#94e2d5" font-size="8.8" font-weight="normal">SMB_DAT (candidate)</text>
+<rect x="832" y="1335" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="1346" fill="#bac2de" font-size="8" font-weight="normal">G34</text>
+<text x="837" y="1361" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="1335" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="1346" fill="#bac2de" font-size="8" font-weight="normal">H34</text>
+<text x="965" y="1361" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="1335" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="1346" fill="#bac2de" font-size="8" font-weight="normal">J34</text>
+<text x="1093" y="1361" fill="#94e2d5" font-size="8.8" font-weight="normal">PRSNT1_B (candidate)</text>
+<rect x="1216" y="1335" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="1346" fill="#bac2de" font-size="8" font-weight="normal">K34</text>
+<text x="1221" y="1361" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="1393" fill="#bac2de" font-size="13" font-weight="normal">35</text>
+<rect x="64" y="1370" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="1381" fill="#bac2de" font-size="8" font-weight="normal">A35</text>
+<text x="69" y="1396" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L5_N</text>
+<rect x="192" y="1370" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="1381" fill="#bac2de" font-size="8" font-weight="normal">B35</text>
+<text x="197" y="1396" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="1370" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="1381" fill="#bac2de" font-size="8" font-weight="normal">C35</text>
+<text x="325" y="1396" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L6_N</text>
+<rect x="448" y="1370" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="1381" fill="#bac2de" font-size="8" font-weight="normal">D35</text>
+<text x="453" y="1396" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="1370" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="1381" fill="#bac2de" font-size="8" font-weight="normal">E35</text>
+<text x="581" y="1396" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1370" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="1381" fill="#bac2de" font-size="8" font-weight="normal">F35</text>
+<text x="709" y="1396" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1370" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="1381" fill="#bac2de" font-size="8" font-weight="normal">G35</text>
+<text x="837" y="1396" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="1370" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="1381" fill="#bac2de" font-size="8" font-weight="normal">H35</text>
+<text x="965" y="1396" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L5_N</text>
+<rect x="1088" y="1370" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="1381" fill="#bac2de" font-size="8" font-weight="normal">J35</text>
+<text x="1093" y="1396" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="1370" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="1381" fill="#bac2de" font-size="8" font-weight="normal">K35</text>
+<text x="1221" y="1396" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L7_N</text>
+<text x="23" y="1428" fill="#bac2de" font-size="13" font-weight="normal">36</text>
+<rect x="64" y="1405" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="1416" fill="#bac2de" font-size="8" font-weight="normal">A36</text>
+<text x="69" y="1431" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L5_P</text>
+<rect x="192" y="1405" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="1416" fill="#bac2de" font-size="8" font-weight="normal">B36</text>
+<text x="197" y="1431" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L4_N</text>
+<rect x="320" y="1405" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="1416" fill="#bac2de" font-size="8" font-weight="normal">C36</text>
+<text x="325" y="1431" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L6_P</text>
+<rect x="448" y="1405" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="1416" fill="#bac2de" font-size="8" font-weight="normal">D36</text>
+<text x="453" y="1431" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L7_N</text>
+<rect x="576" y="1405" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="1416" fill="#bac2de" font-size="8" font-weight="normal">E36</text>
+<text x="581" y="1431" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1405" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="1416" fill="#bac2de" font-size="8" font-weight="normal">F36</text>
+<text x="709" y="1431" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1405" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="1416" fill="#bac2de" font-size="8" font-weight="normal">G36</text>
+<text x="837" y="1431" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L4_N</text>
+<rect x="960" y="1405" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="1416" fill="#bac2de" font-size="8" font-weight="normal">H36</text>
+<text x="965" y="1431" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L5_P</text>
+<rect x="1088" y="1405" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="1416" fill="#bac2de" font-size="8" font-weight="normal">J36</text>
+<text x="1093" y="1431" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L6_N</text>
+<rect x="1216" y="1405" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="1416" fill="#bac2de" font-size="8" font-weight="normal">K36</text>
+<text x="1221" y="1431" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L7_P</text>
+<text x="23" y="1463" fill="#bac2de" font-size="13" font-weight="normal">37</text>
+<rect x="64" y="1440" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="1451" fill="#bac2de" font-size="8" font-weight="normal">A37</text>
+<text x="69" y="1466" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="1440" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="1451" fill="#bac2de" font-size="8" font-weight="normal">B37</text>
+<text x="197" y="1466" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L4_P</text>
+<rect x="320" y="1440" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="1451" fill="#bac2de" font-size="8" font-weight="normal">C37</text>
+<text x="325" y="1466" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="1440" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="1451" fill="#bac2de" font-size="8" font-weight="normal">D37</text>
+<text x="453" y="1466" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L7_P</text>
+<rect x="576" y="1440" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="1451" fill="#bac2de" font-size="8" font-weight="normal">E37</text>
+<text x="581" y="1466" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1440" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="1451" fill="#bac2de" font-size="8" font-weight="normal">F37</text>
+<text x="709" y="1466" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1440" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="1451" fill="#bac2de" font-size="8" font-weight="normal">G37</text>
+<text x="837" y="1466" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L4_P</text>
+<rect x="960" y="1440" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="1451" fill="#bac2de" font-size="8" font-weight="normal">H37</text>
+<text x="965" y="1466" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="1440" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="1451" fill="#bac2de" font-size="8" font-weight="normal">J37</text>
+<text x="1093" y="1466" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L6_P</text>
+<rect x="1216" y="1440" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="1451" fill="#bac2de" font-size="8" font-weight="normal">K37</text>
+<text x="1221" y="1466" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="23" y="1498" fill="#bac2de" font-size="13" font-weight="normal">38</text>
+<rect x="64" y="1475" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="1486" fill="#bac2de" font-size="8" font-weight="normal">A38</text>
+<text x="69" y="1501" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L2_N</text>
+<rect x="192" y="1475" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="1486" fill="#bac2de" font-size="8" font-weight="normal">B38</text>
+<text x="197" y="1501" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="320" y="1475" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="1486" fill="#bac2de" font-size="8" font-weight="normal">C38</text>
+<text x="325" y="1501" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L3_N</text>
+<rect x="448" y="1475" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="1486" fill="#bac2de" font-size="8" font-weight="normal">D38</text>
+<text x="453" y="1501" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="576" y="1475" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="1486" fill="#bac2de" font-size="8" font-weight="normal">E38</text>
+<text x="581" y="1501" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1475" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="1486" fill="#bac2de" font-size="8" font-weight="normal">F38</text>
+<text x="709" y="1501" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1475" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="1486" fill="#bac2de" font-size="8" font-weight="normal">G38</text>
+<text x="837" y="1501" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="960" y="1475" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="1486" fill="#bac2de" font-size="8" font-weight="normal">H38</text>
+<text x="965" y="1501" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L2_N</text>
+<rect x="1088" y="1475" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="1486" fill="#bac2de" font-size="8" font-weight="normal">J38</text>
+<text x="1093" y="1501" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1216" y="1475" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="1486" fill="#bac2de" font-size="8" font-weight="normal">K38</text>
+<text x="1221" y="1501" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L3_N</text>
+<text x="23" y="1533" fill="#bac2de" font-size="13" font-weight="normal">39</text>
+<rect x="64" y="1510" width="123" height="32" rx="3" fill="#313244"/>
+<text x="69" y="1521" fill="#bac2de" font-size="8" font-weight="normal">A39</text>
+<text x="69" y="1536" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L2_P</text>
+<rect x="192" y="1510" width="123" height="32" rx="3" fill="#313244"/>
+<text x="197" y="1521" fill="#bac2de" font-size="8" font-weight="normal">B39</text>
+<text x="197" y="1536" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L1_N</text>
+<rect x="320" y="1510" width="123" height="32" rx="3" fill="#313244"/>
+<text x="325" y="1521" fill="#bac2de" font-size="8" font-weight="normal">C39</text>
+<text x="325" y="1536" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L3_P</text>
+<rect x="448" y="1510" width="123" height="32" rx="3" fill="#313244"/>
+<text x="453" y="1521" fill="#bac2de" font-size="8" font-weight="normal">D39</text>
+<text x="453" y="1536" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L0_N</text>
+<rect x="576" y="1510" width="123" height="32" rx="3" fill="#313244"/>
+<text x="581" y="1521" fill="#bac2de" font-size="8" font-weight="normal">E39</text>
+<text x="581" y="1536" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1510" width="123" height="32" rx="3" fill="#313244"/>
+<text x="709" y="1521" fill="#bac2de" font-size="8" font-weight="normal">F39</text>
+<text x="709" y="1536" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1510" width="123" height="32" rx="3" fill="#313244"/>
+<text x="837" y="1521" fill="#bac2de" font-size="8" font-weight="normal">G39</text>
+<text x="837" y="1536" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L1_N</text>
+<rect x="960" y="1510" width="123" height="32" rx="3" fill="#313244"/>
+<text x="965" y="1521" fill="#bac2de" font-size="8" font-weight="normal">H39</text>
+<text x="965" y="1536" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L2_P</text>
+<rect x="1088" y="1510" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1093" y="1521" fill="#bac2de" font-size="8" font-weight="normal">J39</text>
+<text x="1093" y="1536" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L0_N</text>
+<rect x="1216" y="1510" width="123" height="32" rx="3" fill="#313244"/>
+<text x="1221" y="1521" fill="#bac2de" font-size="8" font-weight="normal">K39</text>
+<text x="1221" y="1536" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L3_P</text>
+<text x="23" y="1568" fill="#bac2de" font-size="13" font-weight="normal">40</text>
+<rect x="64" y="1545" width="123" height="32" rx="3" fill="#181825"/>
+<text x="69" y="1556" fill="#bac2de" font-size="8" font-weight="normal">A40</text>
+<text x="69" y="1571" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="192" y="1545" width="123" height="32" rx="3" fill="#181825"/>
+<text x="197" y="1556" fill="#bac2de" font-size="8" font-weight="normal">B40</text>
+<text x="197" y="1571" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L1_P</text>
+<rect x="320" y="1545" width="123" height="32" rx="3" fill="#181825"/>
+<text x="325" y="1556" fill="#bac2de" font-size="8" font-weight="normal">C40</text>
+<text x="325" y="1571" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="448" y="1545" width="123" height="32" rx="3" fill="#181825"/>
+<text x="453" y="1556" fill="#bac2de" font-size="8" font-weight="normal">D40</text>
+<text x="453" y="1571" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_TX_L0_P</text>
+<rect x="576" y="1545" width="123" height="32" rx="3" fill="#181825"/>
+<text x="581" y="1556" fill="#bac2de" font-size="8" font-weight="normal">E40</text>
+<text x="581" y="1571" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="704" y="1545" width="123" height="32" rx="3" fill="#181825"/>
+<text x="709" y="1556" fill="#bac2de" font-size="8" font-weight="normal">F40</text>
+<text x="709" y="1571" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="832" y="1545" width="123" height="32" rx="3" fill="#181825"/>
+<text x="837" y="1556" fill="#bac2de" font-size="8" font-weight="normal">G40</text>
+<text x="837" y="1571" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L1_P</text>
+<rect x="960" y="1545" width="123" height="32" rx="3" fill="#181825"/>
+<text x="965" y="1556" fill="#bac2de" font-size="8" font-weight="normal">H40</text>
+<text x="965" y="1571" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<rect x="1088" y="1545" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1093" y="1556" fill="#bac2de" font-size="8" font-weight="normal">J40</text>
+<text x="1093" y="1571" fill="#cba6f7" font-size="10" font-weight="normal">NVHS0_RX_L0_P</text>
+<rect x="1216" y="1545" width="123" height="32" rx="3" fill="#181825"/>
+<text x="1221" y="1556" fill="#bac2de" font-size="8" font-weight="normal">K40</text>
+<text x="1221" y="1571" fill="#bac2de" font-size="10" font-weight="normal">GND</text>
+<text x="38" y="1628" fill="#bac2de" font-size="17" font-weight="normal">Read confidence, evidence and electrical treatment in the accompanying CSV / workbook.</text>
+</g></svg>
