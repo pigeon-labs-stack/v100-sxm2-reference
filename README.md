@@ -110,3 +110,9 @@ Our original hardware design contributions use **CERN-OHL-W-2.0**; our original 
 Follow the project and join the discussion on the [Level1Techs forums: designing an open-source budget 4× V100 SXM2 NVLink backplane](https://forum.level1techs.com/t/designing-an-open-source-budget-4x-v100-sxm2-nvlink-backplane-passive-pcie-vs-pex8749/250801).
 
 Thank you to everyone on the [Level1Techs forums](https://forum.level1techs.com/) for your help, ideas and contributions to this project.
+
+## Support the project
+
+If you’d like to support work on this reference, you can buy Pigeon Labs a coffee.
+
+<a href="https://www.buymeacoffee.com/pigeon_labs"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=&amp;slug=pigeon_labs&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Cookie&amp;outline_colour=000000&amp;coffee_colour=ffffff" alt="Buy Pigeon Labs a coffee" /></a>
