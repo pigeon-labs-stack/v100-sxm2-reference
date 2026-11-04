@@ -10,7 +10,7 @@ While that board is being developed, this reference kit shares the pin mappings,
 
 ## Getting started
 
-1. Download the complete reference ZIP from [v0.1.0-reference](https://github.com/pigeon-labs-stack/v100-sxm2-reference/releases/tag/v0.1.0-reference), or use **Code > Download ZIP** for the current development files.
+1. Download the newest reference ZIP from [GitHub Releases](https://github.com/pigeon-labs-stack/v100-sxm2-reference/releases), or use **Code > Download ZIP** for the current development files.
 2. Extract the archive and keep the directory structure. Choose a [single-, two- or four-module KiCad starter](kicad/README.md), then open its `.kicad_pro` file in **KiCad 10.0.7** or a compatible newer version. Keep the whole `kicad/` folder so the shared symbol library is available.
 3. For reading without KiCad, use the [complete schematic PDFs](docs/downloads.md#read-without-kicad) or [standalone workbook](workbook/V100-SXM2-Pinout-and-NVLink.xlsx).
 
@@ -38,7 +38,9 @@ The [download guide](docs/downloads.md) includes print editions and library-path
 
 **External clock required:** the NVLink starter schematics show data wiring, not a complete working NVLink implementation. Each V100 needs a **156.25 MHz differential NVHS clock on B/E20 (+) and B/F20 (−)**. The separate PCIe clock is **100 MHz on A/E7 (+) and A/F7 (−)**. [Clock requirements and scope](docs/kicad.md#external-clocks-required).
 
-**Presence detection and simple carriers:** the full reference-carrier presence loop is not established as a universal requirement for basic GPU operation. Reported simple carriers omit the feature, while a controller that waits for a presence signal needs that signal handled correctly. See [basic operation versus presence-detection features](docs/presence-detection.md), including the two connector-A contacts whose ground labels are under review. This distinction does not make other supporting circuitry optional.
+**Presence detection and simple carriers:** the full reference-carrier presence loop is not established as a universal requirement for basic GPU operation. Reported simple carriers omit the feature, while a controller that waits for a presence signal needs that signal handled correctly. Grounding both A/B7 and A/A39 follows reported simple-carrier designs that omit detection and do not depend on it. For a carrier that checks seating, use a validated presence loop. See the [presence-detection guide](docs/presence-detection.md).
+
+**Sources for the presence and sideband update.** Michael Williams ([@mtwilliams](https://github.com/mtwilliams)) contributed the comparison in [PR #2](https://github.com/pigeon-labs-stack/v100-sxm2-reference/pull/2). The Quanta Big Basin GPU baseboard documents the socket and presence loop on sheets 15–17 and its control circuits on sheets 39–40. The OpenPOWER adapter specification (§§3.6–3.8) provides generic sideband context. [Big Basin design files](https://www.opencompute.org/documents/designfiles-zip) · [OpenPOWER specification](https://openpower.foundation/specifications/advancedacceleratoradapter/) · [Full sources and attribution](docs/sources.md)
 
 ## Schematics at a glance
 

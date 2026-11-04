@@ -2,9 +2,12 @@
 
 Versions identify the reference files someone used; they do not indicate hardware qualification. Future pinout corrections should name the connector/pad, previous assignment, new assignment and supporting evidence.
 
-## Unreleased
+## 0.1.1-reference
 
-- 3 November 2026: documented the distinction between reported basic GPU operation on simple carriers and the reference carrier's presence-detection feature. Explained controller dependencies and the A/B7/A39 ground labels under review. Documentation only; pin tables, workbook, schematics and versioned release assets are unchanged. The evidence-update PR and pin-renaming issue remain pending.
+- Clarified the difference between basic GPU operation and presence detection on reference carriers.
+- Added Big Basin and OpenPOWER sources contributed by Michael Williams (@mtwilliams) in PR #2. Updated the evidence for sideband and reserved contacts and corroborated the Connector B NVHS clock polarity.
+- Distinguished Quanta's 1.8 V control circuits from OpenPOWER's generic guidance and from reported community implementations.
+- Qualified the legacy GND labels at Connector A B7 and A39. The CSVs, workbook and KiCad sheets describe grounding as a reported option for carriers that omit presence detection. The separate pin-renaming proposal remains in issue #1.
 
 ## 0.1.0-reference - 30 October 2026
 

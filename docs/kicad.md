@@ -29,7 +29,7 @@ For GPU0 the NVHS clock contacts are on **J2**, for GPU1 on **J4**, for GPU2 on 
 
 ## Presence detection
 
-Presence detection is a carrier feature with reported simpler alternatives; it is not established as a universal prerequisite for basic GPU operation. A carrier/controller that uses it must implement it coherently. Read [presence detection: basic operation and carrier features](presence-detection.md) before interpreting the existing GND labels at A/B7 and A/A39 as mandatory ground connections. The starter pin labels are unchanged while that mapping is reviewed.
+Presence detection is a carrier feature with reported simpler alternatives; it is not established as a universal prerequisite for basic GPU operation. A carrier/controller that uses it must implement it coherently. Read [presence detection: basic operation and carrier features](presence-detection.md) before interpreting the existing GND labels at A/B7 and A/A39 as mandatory ground connections. Each Connector A sheet identifies the two disputed labels and shows when the reported grounding option applies.
 
 ## Single-module connector starter
 

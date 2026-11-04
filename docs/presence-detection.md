@@ -17,7 +17,7 @@ Sources: [Benchoff's investigation](https://bbenchoff.com/pages/SXM2PCIe.html), 
 
 ## Choosing a carrier implementation
 
-- **Simple carrier without presence detection:** reported community implementations ground these connector-A positions. That is evidence for those particular implementations, not a blanket instruction to ground all sense or management contacts. The missing detection feature alone is not evidence that the design cannot operate.
+- **Simple carrier without presence detection:** grounding both A/B7 and A/A39 follows reported simple-carrier examples, provided the implementation omits presence detection and its controller does not depend on the loop. Validate that choice in the intended carrier.
 - **Carrier with presence detection:** implement and validate the loop, its pull-up/readout and the controller's response. Grounding the readout can permanently assert "present" and defeat the seating check. The reference circuit intentionally grounds one end of the loop; not every presence contact is a separate input or pull-up.
 - **Carrier using firmware or a sequencer that waits for presence:** a missing or incorrectly wired detector can prevent that carrier from enabling power. In that case it is a requirement of the chosen carrier/controller implementation. Omitting the feature requires a coherent alternative control policy.
 
@@ -34,4 +34,4 @@ All positions here use the project's canonical connector-plus-pad notation:
 
 The v0.1.0 tables and symbols retain **GND** at A/B7 and A/A39, reflecting the earlier carrier-derived mapping. Their dedicated-ground interpretation is under review in issue #1. Read this qualification alongside those entries; the current ground label alone is not proof of the module pin's intrinsic function.
 
-This guide does not rename pins, change the connection tables or provide a complete detector schematic. Confirm the physical viewing convention and module continuity before adopting a presence circuit. The downloadable v0.1.0 release is unchanged; this clarification is part of the development documentation.
+The development CSVs, workbook and Connector A sheets carry this qualification alongside the legacy labels. Confirm the physical viewing convention and module continuity before adopting a presence circuit. This guidance postdates the v0.1.0 release.

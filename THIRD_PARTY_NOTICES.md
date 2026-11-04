@@ -19,6 +19,19 @@ Benchoff's article identifies its text as copyright 2025 Brian Benchoff, CC BY-S
 
 Their authors retain their designs and original expression. No licence for their raw design archives has been established by this reference kit. Curated assignments and source labels are retained for traceability; our licence notice does not relicense upstream files or create exclusive rights in electrical facts.
 
+## Open Compute Project — Big Basin
+
+- [Facebook Big Basin JBOG specification](https://www.opencompute.org/documents/facebook-big-basin-jbog-spec/)
+- [Big Basin design-file archive](https://www.opencompute.org/documents/designfiles-zip)
+
+The specification is © 2016 Facebook and states that it is made available under the Open Compute Project Hardware License (Permissive) Version 1.0 (OCPHL-P). The design-file archive (schematics, board files, Gerbers, mechanical and firmware) contains no licence file, and no licence for it has been established by this reference kit. Its schematic is cited by sheet and pin name only; the archive, its firmware images and its drawings are not reproduced or bundled.
+
+## OpenPOWER Foundation
+
+- [Advanced Accelerator Adapter Electro-Mechanical Specification v1.0](https://openpower.foundation/specifications/advancedacceleratoradapter/)
+
+The specification is © 2017 OpenPOWER Foundation. Its notice permits copying and distribution in whole or in part and derivative works that comment on or explain it, provided the copyright notice is retained, but does not permit modifying the document itself. This reference kit cites its signal definitions and does not reproduce its figures.
+
 ## Manufacturer and source geometry
 
 [Amphenol's s84740 model archive](https://cdn.amphenol-cs.com/media/wysiwyg/files/3d/s84740.zip) supplies the connector model used in the existing local geometry render. The cover's connector shape also uses the local reference footprint's fabrication outline. The cover's geometry and both `connector-render` images are excluded from our blanket CC licence. No separate redistribution licence for the raw manufacturer model is asserted here; verify the applicable source terms before extracting or redistributing it.

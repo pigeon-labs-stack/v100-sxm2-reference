@@ -8,8 +8,7 @@ message: >-
 authors:
   - name: Pigeon Labs
     website: https://github.com/pigeon-labs-stack
-version: 0.1.0-reference
-date-released: "2026-10-30"
+version: 0.1.1-reference
 url: https://github.com/pigeon-labs-stack/v100-sxm2-reference
 repository-code: https://github.com/pigeon-labs-stack/v100-sxm2-reference
 license:
@@ -45,3 +44,19 @@ references:
     authors:
       - name: xinyuuliu
     url: https://oshwhub.com/xinyuuliu/v100-graphics-card-nvlink200gb-c
+  - type: generic
+    title: Big Basin JBOG specification and GPU baseboard design files
+    authors:
+      - name: Facebook and Quanta Computer
+    url: https://www.opencompute.org/documents/designfiles-zip
+  - type: standard
+    title: Advanced Accelerator Adapter Electro-Mechanical Specification v1.0
+    authors:
+      - name: OpenPOWER Foundation
+    url: https://openpower.foundation/specifications/advancedacceleratoradapter/
+  - type: generic
+    title: Add Big Basin and OpenPOWER sources; upgrade sideband evidence
+    authors:
+      - family-names: Williams
+        given-names: Michael
+    url: https://github.com/pigeon-labs-stack/v100-sxm2-reference/pull/2

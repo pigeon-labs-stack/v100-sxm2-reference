@@ -4,7 +4,7 @@
 
 ## Choose a version
 
-Use the [v0.1.0-reference release](https://github.com/pigeon-labs-stack/v100-sxm2-reference/releases/tag/v0.1.0-reference) for a named snapshot. Download **V100-SXM2-Reference-v0.1.0-reference.zip** for the complete kit: workbook, CSVs, KiCad projects, PDFs, diagrams, credits and licences. The release also offers the workbook and PDFs individually, plus SHA-256 checksums. See [what changed](../CHANGELOG.md).
+Choose a named snapshot from [GitHub Releases](https://github.com/pigeon-labs-stack/v100-sxm2-reference/releases). Download the **V100-SXM2-Reference-<version>.zip** asset for the complete kit: workbook, CSVs, KiCad projects, PDFs, diagrams, credits and licences. For the updated Connector A grounding guidance, use edition **v0.1.1-reference** or later, or download the current development files. The release also offers the workbook and PDFs individually, plus SHA-256 checksums. See [what changed](../CHANGELOG.md).
 
 For the current development files, use **Code > Download ZIP** on the repository landing page. Extract the archive before opening a project. Release and development ZIPs both keep the shared library paths intact when their directory structure is preserved.
 

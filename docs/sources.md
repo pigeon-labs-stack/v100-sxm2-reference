@@ -30,6 +30,24 @@ The workbook uses this implementation to compare the circuitry and NVLink contac
 
 The two- and four-GPU guides retain the distinction between demonstrated pairing families and the expanded arrangements proposed here.
 
+## Reference designs and specifications
+
+Michael Williams ([@mtwilliams](https://github.com/mtwilliams)) identified these references and contributed the coordinate cross-check and sideband evidence update in [PR #2](https://github.com/pigeon-labs-stack/v100-sxm2-reference/pull/2). The repository also records his proposed presence-pin renaming in [issue #1](https://github.com/pigeon-labs-stack/v100-sxm2-reference/issues/1).
+
+### Facebook / QCT — Big Basin GPU baseboard (Open Compute Project)
+
+[Big Basin JBOG specification](https://www.opencompute.org/documents/facebook-big-basin-jbog-spec/) · [design-file archive](https://www.opencompute.org/documents/designfiles-zip)
+
+Big Basin is the eight-GPU SXM2 enclosure that Facebook built with QCT and published through the Open Compute Project in March 2017. Its specification states that the SXM2 baseboard "leverages from the GPU Baseboard design of NVIDIA DGX-1 system", and revision 1.0 lists P100 or V100 SXM2 support. The design-file archive includes the Quanta S2W GPU baseboard schematic (`S2W_SXM2_schematics_fab5_v100_20160623.pdf`, where `v100` is the schematic revision), whose socket symbol is `SCONN400_84740-102LF`.
+
+Its pin coordinates use the same source frame as the MTF raw columns. Sheets 15–17 cover sideband, presence, SMBus, reserved and ground contacts and the NVHS reference-clock polarity. Sheets 39–40 document the reference control circuits. It is a production reference schematic, not NVIDIA documentation or a measurement of every contact.
+
+### OpenPOWER Foundation — Advanced Accelerator Adapter specification
+
+[Advanced Accelerator Adapter Electro-Mechanical Specification v1.0](https://openpower.foundation/specifications/advancedacceleratoradapter/)
+
+This IBM POWER9-ecosystem specification defines a two-connector mezzanine adapter on the same 84740 connector family. Its ground and sideband layout matches the SXM2 reference, but it is a generic adapter specification: it does not name NVIDIA or SXM2, renames the six high-speed groups OP0–OP5, leaves most PCIe positions reserved and assigns `INT_RST_N` to a position the SXM2 reference grounds. The curated data cites it for sideband signal semantics, 1.8 V signalling levels and the presence-detect loop, not for SXM2-specific assignments.
+
 ## Additional references
 
 - [yunxs SXM2 carrier with ESP32](https://oshwhub.com/yunxs/sxm2-zhuan-pcie-jia-esp32): supplementary functional evidence cited by the workbook, not independent physical coordinates for every pad.

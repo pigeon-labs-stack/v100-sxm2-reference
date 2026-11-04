@@ -40,7 +40,7 @@ Before transferring these coordinates into a footprint, establish which physical
 
 ## Presence detection and simple carriers
 
-For the distinction between module operation and a carrier's presence-detection feature, including the A/B7 and A/A39 ground labels under review, see [presence-detection guidance](presence-detection.md). This does not change the current pin tables or establish a minimal NVLink bring-up recipe.
+For the distinction between module operation and a carrier's presence-detection feature, including the A/B7 and A/A39 ground labels under review, see [presence-detection guidance](presence-detection.md). The pin tables and workbook qualify the ground labels by carrier implementation.
 
 ## NVLink signal names
 
