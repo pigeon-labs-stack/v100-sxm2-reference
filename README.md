@@ -28,7 +28,13 @@ The [download guide](docs/downloads.md) includes print editions and library-path
 | Work offline with the full reference | [Download the standalone workbook](workbook/V100-SXM2-Pinout-and-NVLink.xlsx) |
 | Browse or print every schematic sheet without KiCad | [Complete PDF sets](docs/downloads.md#read-without-kicad) |
 | Check what is established and what is open | [Status and limitations](docs/status.md) |
-| Find or submit a community board | [Community carrier boards](docs/community-carriers.md) |
+| Find or submit a community board | [Community carrier boards](#community-carrier-boards) |
+
+## Community carrier boards
+
+Browse SXM2 carrier designs shared by their authors, with supported modules, PCIe and NVLink configurations, and reported test results. Pigeon Labs has not independently tested or approved the listed designs.
+
+[Browse the community carrier directory](docs/community-carriers.md) · [Submit your carrier board](https://github.com/pigeon-labs-stack/v100-sxm2-reference/issues/new?template=community-carrier.yml)
 
 ## What is included
 
