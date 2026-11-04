@@ -17,6 +17,10 @@ An unused contact in a source design does not establish an official NVIDIA NC as
 
 For a broken file or unclear explanation, use the documentation/file form. For broader project conversation, join the [Level1Techs discussion](https://forum.level1techs.com/t/designing-an-open-source-budget-4x-v100-sxm2-nvlink-backplane-passive-pcie-vs-pex8749/250801).
 
+## Share a carrier board
+
+Use the [community carrier directory](docs/community-carriers.md) to find the submission form and the details to include. Share a public design link and describe the board's reported test status.
+
 ## Propose an edit
 
 Small corrections can be submitted directly as a pull request. Explain what changes and include the evidence above when an electrical assignment or coordinate changes. Describe substantial new circuit or board work in an issue first so its scope can be discussed.

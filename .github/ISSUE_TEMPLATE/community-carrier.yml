@@ -1,0 +1,44 @@
+name: Community carrier board
+description: Submit a public SXM2 carrier design for the community directory.
+title: "[Community carrier] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit your own design or share it with the author's permission. Listing a design does not mean Pigeon Labs tested or approved it.
+  - type: input
+    id: design
+    attributes:
+      label: Public design link
+      placeholder: https://github.com/author/board
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author or team to credit
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Board revision and licence, if available
+  - type: textarea
+    id: configuration
+    attributes:
+      label: Supported modules and connections
+      description: Include module models and count, the PCIe connection and any NVLink wiring. Distinguish intended support from tested configurations.
+    validations:
+      required: true
+  - type: textarea
+    id: testing
+    attributes:
+      label: Reported test status and evidence
+      description: Say whether the board is a draft, fabricated, tested for PCIe enumeration or tested with NVLink traffic. Include the hardware and revision tested, and link logs, photos or bring-up notes if available.
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Known limitations or requirements
+      description: Include relevant power, cooling, clock or firmware requirements.

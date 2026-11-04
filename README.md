@@ -28,6 +28,7 @@ The [download guide](docs/downloads.md) includes print editions and library-path
 | Work offline with the full reference | [Download the standalone workbook](workbook/V100-SXM2-Pinout-and-NVLink.xlsx) |
 | Browse or print every schematic sheet without KiCad | [Complete PDF sets](docs/downloads.md#read-without-kicad) |
 | Check what is established and what is open | [Status and limitations](docs/status.md) |
+| Find or submit a community board | [Community carrier boards](docs/community-carriers.md) |
 
 ## What is included
 
