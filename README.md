@@ -115,4 +115,4 @@ Thank you to everyone on the [Level1Techs forums](https://forum.level1techs.com/
 
 If you’d like to support work on this reference, you can buy Pigeon Labs a coffee.
 
-<a href="https://www.buymeacoffee.com/pigeon_labs"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=&amp;slug=pigeon_labs&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Cookie&amp;outline_colour=000000&amp;coffee_colour=ffffff" alt="Buy Pigeon Labs a coffee" /></a>
+<a href="https://www.buymeacoffee.com/pigeon_labs"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&amp;emoji=&amp;slug=pigeon_labs&amp;button_colour=CBA6F7&amp;font_colour=1E1E2E&amp;font_family=Cookie&amp;outline_colour=CBA6F7&amp;coffee_colour=CDD6F4" alt="Buy Pigeon Labs a coffee" /></a>
